@@ -1,0 +1,1524 @@
+{
+  "slug": "insulin-glucose",
+  "fps": 30,
+  "mode": "estimate",
+  "totalFrames": 3909,
+  "scenes": [
+    {
+      "id": "hook",
+      "from": 0,
+      "durationInFrames": 349,
+      "audio": null,
+      "words": [
+        {
+          "text": "After",
+          "startMs": 150,
+          "endMs": 528
+        },
+        {
+          "text": "a",
+          "startMs": 561,
+          "endMs": 817
+        },
+        {
+          "text": "meal,",
+          "startMs": 839,
+          "endMs": 1186
+        },
+        {
+          "text": "sugar",
+          "startMs": 1377,
+          "endMs": 1755,
+          "emphasis": "amber"
+        },
+        {
+          "text": "floods",
+          "startMs": 1788,
+          "endMs": 2197
+        },
+        {
+          "text": "your",
+          "startMs": 2232,
+          "endMs": 2580
+        },
+        {
+          "text": "blood.",
+          "startMs": 2610,
+          "endMs": 2988
+        },
+        {
+          "text": "Yet",
+          "startMs": 3341,
+          "endMs": 3658
+        },
+        {
+          "text": "blood",
+          "startMs": 3685,
+          "endMs": 4064
+        },
+        {
+          "text": "glucose",
+          "startMs": 4097,
+          "endMs": 4536
+        },
+        {
+          "text": "stays",
+          "startMs": 4574,
+          "endMs": 4953
+        },
+        {
+          "text": "in",
+          "startMs": 4985,
+          "endMs": 5272
+        },
+        {
+          "text": "a",
+          "startMs": 5296,
+          "endMs": 5552
+        },
+        {
+          "text": "narrow",
+          "startMs": 5574,
+          "endMs": 5983
+        },
+        {
+          "text": "range.",
+          "startMs": 6019,
+          "endMs": 6397
+        },
+        {
+          "text": "The",
+          "startMs": 6750,
+          "endMs": 7067
+        },
+        {
+          "text": "hormone",
+          "startMs": 7094,
+          "endMs": 7534
+        },
+        {
+          "text": "that",
+          "startMs": 7572,
+          "endMs": 7920
+        },
+        {
+          "text": "brings",
+          "startMs": 7950,
+          "endMs": 8359
+        },
+        {
+          "text": "it",
+          "startMs": 8394,
+          "endMs": 8680
+        },
+        {
+          "text": "down",
+          "startMs": 8705,
+          "endMs": 9053
+        },
+        {
+          "text": "is",
+          "startMs": 9083,
+          "endMs": 9369
+        },
+        {
+          "text": "insulin.",
+          "startMs": 9394,
+          "endMs": 9834,
+          "emphasis": "amber"
+        },
+        {
+          "text": "Here's",
+          "startMs": 10192,
+          "endMs": 10570
+        },
+        {
+          "text": "how.",
+          "startMs": 10603,
+          "endMs": 10920
+        }
+      ]
+    },
+    {
+      "id": "beta-cells",
+      "from": 349,
+      "durationInFrames": 404,
+      "audio": null,
+      "words": [
+        {
+          "text": "Insulin",
+          "startMs": 150,
+          "endMs": 568
+        },
+        {
+          "text": "is",
+          "startMs": 605,
+          "endMs": 877
+        },
+        {
+          "text": "made",
+          "startMs": 901,
+          "endMs": 1231
+        },
+        {
+          "text": "in",
+          "startMs": 1260,
+          "endMs": 1532
+        },
+        {
+          "text": "your",
+          "startMs": 1556,
+          "endMs": 1887
+        },
+        {
+          "text": "pancreas,",
+          "startMs": 1916,
+          "endMs": 2363,
+          "emphasis": "teal"
+        },
+        {
+          "text": "by",
+          "startMs": 2562,
+          "endMs": 2834
+        },
+        {
+          "text": "beta",
+          "startMs": 2858,
+          "endMs": 3189,
+          "emphasis": "amber"
+        },
+        {
+          "text": "cells",
+          "startMs": 3217,
+          "endMs": 3577,
+          "emphasis": "amber"
+        },
+        {
+          "text": "clustered",
+          "startMs": 3609,
+          "endMs": 4085
+        },
+        {
+          "text": "in",
+          "startMs": 4127,
+          "endMs": 4399
+        },
+        {
+          "text": "tiny",
+          "startMs": 4423,
+          "endMs": 4753
+        },
+        {
+          "text": "islands",
+          "startMs": 4782,
+          "endMs": 5201
+        },
+        {
+          "text": "called",
+          "startMs": 5237,
+          "endMs": 5626
+        },
+        {
+          "text": "islets",
+          "startMs": 5660,
+          "endMs": 6049,
+          "emphasis": "teal"
+        },
+        {
+          "text": "of",
+          "startMs": 6083,
+          "endMs": 6355,
+          "emphasis": "teal"
+        },
+        {
+          "text": "Langerhans.",
+          "startMs": 6379,
+          "endMs": 6885,
+          "emphasis": "teal"
+        },
+        {
+          "text": "When",
+          "startMs": 7249,
+          "endMs": 7579
+        },
+        {
+          "text": "blood",
+          "startMs": 7608,
+          "endMs": 7968
+        },
+        {
+          "text": "glucose",
+          "startMs": 7999,
+          "endMs": 8417
+        },
+        {
+          "text": "rises",
+          "startMs": 8454,
+          "endMs": 8814
+        },
+        {
+          "text": "after",
+          "startMs": 8845,
+          "endMs": 9205
+        },
+        {
+          "text": "you",
+          "startMs": 9236,
+          "endMs": 9538
+        },
+        {
+          "text": "eat,",
+          "startMs": 9564,
+          "endMs": 9865
+        },
+        {
+          "text": "beta",
+          "startMs": 10052,
+          "endMs": 10382
+        },
+        {
+          "text": "cells",
+          "startMs": 10411,
+          "endMs": 10771
+        },
+        {
+          "text": "release",
+          "startMs": 10802,
+          "endMs": 11221
+        },
+        {
+          "text": "insulin",
+          "startMs": 11257,
+          "endMs": 11675
+        },
+        {
+          "text": "into",
+          "startMs": 11712,
+          "endMs": 12042
+        },
+        {
+          "text": "the",
+          "startMs": 12071,
+          "endMs": 12373
+        },
+        {
+          "text": "blood.",
+          "startMs": 12399,
+          "endMs": 12759
+        }
+      ]
+    },
+    {
+      "id": "receptor",
+      "from": 753,
+      "durationInFrames": 416,
+      "audio": null,
+      "words": [
+        {
+          "text": "Insulin",
+          "startMs": 150,
+          "endMs": 574
+        },
+        {
+          "text": "travels",
+          "startMs": 610,
+          "endMs": 1034
+        },
+        {
+          "text": "to",
+          "startMs": 1071,
+          "endMs": 1347
+        },
+        {
+          "text": "its",
+          "startMs": 1371,
+          "endMs": 1676
+        },
+        {
+          "text": "main",
+          "startMs": 1702,
+          "endMs": 2037
+        },
+        {
+          "text": "targets:",
+          "startMs": 2066,
+          "endMs": 2490
+        },
+        {
+          "text": "skeletal",
+          "startMs": 2687,
+          "endMs": 3140,
+          "emphasis": "teal"
+        },
+        {
+          "text": "muscle",
+          "startMs": 3179,
+          "endMs": 3573,
+          "emphasis": "teal"
+        },
+        {
+          "text": "and",
+          "startMs": 3608,
+          "endMs": 3913
+        },
+        {
+          "text": "fat",
+          "startMs": 3939,
+          "endMs": 4245,
+          "emphasis": "teal"
+        },
+        {
+          "text": "cells.",
+          "startMs": 4271,
+          "endMs": 4636,
+          "emphasis": "teal"
+        },
+        {
+          "text": "It",
+          "startMs": 4987,
+          "endMs": 5263
+        },
+        {
+          "text": "binds",
+          "startMs": 5287,
+          "endMs": 5652
+        },
+        {
+          "text": "a",
+          "startMs": 5683,
+          "endMs": 5930
+        },
+        {
+          "text": "receptor",
+          "startMs": 5951,
+          "endMs": 6404,
+          "emphasis": "teal"
+        },
+        {
+          "text": "on",
+          "startMs": 6443,
+          "endMs": 6719
+        },
+        {
+          "text": "the",
+          "startMs": 6743,
+          "endMs": 7049
+        },
+        {
+          "text": "cell",
+          "startMs": 7075,
+          "endMs": 7410
+        },
+        {
+          "text": "surface,",
+          "startMs": 7439,
+          "endMs": 7863
+        },
+        {
+          "text": "which",
+          "startMs": 8060,
+          "endMs": 8424
+        },
+        {
+          "text": "signals",
+          "startMs": 8456,
+          "endMs": 8879
+        },
+        {
+          "text": "the",
+          "startMs": 8916,
+          "endMs": 9221
+        },
+        {
+          "text": "cell",
+          "startMs": 9248,
+          "endMs": 9583
+        },
+        {
+          "text": "to",
+          "startMs": 9612,
+          "endMs": 9888
+        },
+        {
+          "text": "move",
+          "startMs": 9912,
+          "endMs": 10247
+        },
+        {
+          "text": "GLUT4",
+          "startMs": 10276,
+          "endMs": 10640,
+          "emphasis": "amber"
+        },
+        {
+          "text": "glucose",
+          "startMs": 10672,
+          "endMs": 11095
+        },
+        {
+          "text": "transporters",
+          "startMs": 11132,
+          "endMs": 11703
+        },
+        {
+          "text": "up",
+          "startMs": 11753,
+          "endMs": 12029
+        },
+        {
+          "text": "to",
+          "startMs": 12053,
+          "endMs": 12329
+        },
+        {
+          "text": "the",
+          "startMs": 12353,
+          "endMs": 12658
+        },
+        {
+          "text": "membrane.",
+          "startMs": 12685,
+          "endMs": 13138
+        }
+      ]
+    },
+    {
+      "id": "uptake",
+      "from": 1169,
+      "durationInFrames": 363,
+      "audio": null,
+      "words": [
+        {
+          "text": "Those",
+          "startMs": 150,
+          "endMs": 521
+        },
+        {
+          "text": "transporters",
+          "startMs": 553,
+          "endMs": 1134
+        },
+        {
+          "text": "open",
+          "startMs": 1184,
+          "endMs": 1525
+        },
+        {
+          "text": "the",
+          "startMs": 1554,
+          "endMs": 1865
+        },
+        {
+          "text": "door.",
+          "startMs": 1892,
+          "endMs": 2232
+        },
+        {
+          "text": "Glucose",
+          "startMs": 2582,
+          "endMs": 3013
+        },
+        {
+          "text": "flows",
+          "startMs": 3050,
+          "endMs": 3421
+        },
+        {
+          "text": "out",
+          "startMs": 3453,
+          "endMs": 3764
+        },
+        {
+          "text": "of",
+          "startMs": 3791,
+          "endMs": 4071
+        },
+        {
+          "text": "the",
+          "startMs": 4095,
+          "endMs": 4406
+        },
+        {
+          "text": "blood",
+          "startMs": 4433,
+          "endMs": 4804
+        },
+        {
+          "text": "and",
+          "startMs": 4836,
+          "endMs": 5146
+        },
+        {
+          "text": "into",
+          "startMs": 5173,
+          "endMs": 5514
+        },
+        {
+          "text": "the",
+          "startMs": 5543,
+          "endMs": 5854
+        },
+        {
+          "text": "cell,",
+          "startMs": 5881,
+          "endMs": 6221
+        },
+        {
+          "text": "where",
+          "startMs": 6411,
+          "endMs": 6782
+        },
+        {
+          "text": "it's",
+          "startMs": 6814,
+          "endMs": 7124
+        },
+        {
+          "text": "burned",
+          "startMs": 7151,
+          "endMs": 7552
+        },
+        {
+          "text": "for",
+          "startMs": 7587,
+          "endMs": 7897
+        },
+        {
+          "text": "energy",
+          "startMs": 7924,
+          "endMs": 8325
+        },
+        {
+          "text": "or",
+          "startMs": 8360,
+          "endMs": 8640
+        },
+        {
+          "text": "stored.",
+          "startMs": 8665,
+          "endMs": 9065
+        },
+        {
+          "text": "Blood",
+          "startMs": 9420,
+          "endMs": 9791
+        },
+        {
+          "text": "glucose",
+          "startMs": 9823,
+          "endMs": 10254
+        },
+        {
+          "text": "starts",
+          "startMs": 10291,
+          "endMs": 10692
+        },
+        {
+          "text": "to",
+          "startMs": 10727,
+          "endMs": 11007
+        },
+        {
+          "text": "fall.",
+          "startMs": 11031,
+          "endMs": 11372
+        }
+      ]
+    },
+    {
+      "id": "liver",
+      "from": 1532,
+      "durationInFrames": 409,
+      "audio": null,
+      "words": [
+        {
+          "text": "In",
+          "startMs": 150,
+          "endMs": 427
+        },
+        {
+          "text": "the",
+          "startMs": 451,
+          "endMs": 757
+        },
+        {
+          "text": "liver,",
+          "startMs": 784,
+          "endMs": 1150,
+          "emphasis": "teal"
+        },
+        {
+          "text": "insulin",
+          "startMs": 1341,
+          "endMs": 1766
+        },
+        {
+          "text": "works",
+          "startMs": 1803,
+          "endMs": 2169
+        },
+        {
+          "text": "differently.",
+          "startMs": 2201,
+          "endMs": 2744
+        },
+        {
+          "text": "It",
+          "startMs": 3112,
+          "endMs": 3388
+        },
+        {
+          "text": "tells",
+          "startMs": 3412,
+          "endMs": 3778
+        },
+        {
+          "text": "liver",
+          "startMs": 3810,
+          "endMs": 4176
+        },
+        {
+          "text": "cells",
+          "startMs": 4207,
+          "endMs": 4573
+        },
+        {
+          "text": "to",
+          "startMs": 4605,
+          "endMs": 4882
+        },
+        {
+          "text": "store",
+          "startMs": 4906,
+          "endMs": 5271
+        },
+        {
+          "text": "glucose",
+          "startMs": 5303,
+          "endMs": 5728
+        },
+        {
+          "text": "as",
+          "startMs": 5765,
+          "endMs": 6042
+        },
+        {
+          "text": "glycogen,",
+          "startMs": 6066,
+          "endMs": 6521,
+          "emphasis": "amber"
+        },
+        {
+          "text": "and",
+          "startMs": 6720,
+          "endMs": 7027
+        },
+        {
+          "text": "it",
+          "startMs": 7053,
+          "endMs": 7330
+        },
+        {
+          "text": "shuts",
+          "startMs": 7354,
+          "endMs": 7720
+        },
+        {
+          "text": "down",
+          "startMs": 7752,
+          "endMs": 8088
+        },
+        {
+          "text": "the",
+          "startMs": 8117,
+          "endMs": 8423
+        },
+        {
+          "text": "liver's",
+          "startMs": 8450,
+          "endMs": 8845
+        },
+        {
+          "text": "own",
+          "startMs": 8880,
+          "endMs": 9186
+        },
+        {
+          "text": "glucose",
+          "startMs": 9213,
+          "endMs": 9638
+        },
+        {
+          "text": "production,",
+          "startMs": 9675,
+          "endMs": 10188
+        },
+        {
+          "text": "so",
+          "startMs": 10393,
+          "endMs": 10670
+        },
+        {
+          "text": "less",
+          "startMs": 10694,
+          "endMs": 11030
+        },
+        {
+          "text": "new",
+          "startMs": 11059,
+          "endMs": 11366
+        },
+        {
+          "text": "sugar",
+          "startMs": 11392,
+          "endMs": 11758
+        },
+        {
+          "text": "enters",
+          "startMs": 11790,
+          "endMs": 12185
+        },
+        {
+          "text": "the",
+          "startMs": 12219,
+          "endMs": 12526
+        },
+        {
+          "text": "blood.",
+          "startMs": 12553,
+          "endMs": 12918
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "from": 1941,
+      "durationInFrames": 463,
+      "audio": null,
+      "words": [
+        {
+          "text": "Insulin",
+          "startMs": 150,
+          "endMs": 562
+        },
+        {
+          "text": "has",
+          "startMs": 598,
+          "endMs": 895
+        },
+        {
+          "text": "a",
+          "startMs": 921,
+          "endMs": 1160
+        },
+        {
+          "text": "partner.",
+          "startMs": 1181,
+          "endMs": 1593
+        },
+        {
+          "text": "When",
+          "startMs": 1949,
+          "endMs": 2274
+        },
+        {
+          "text": "glucose",
+          "startMs": 2303,
+          "endMs": 2714
+        },
+        {
+          "text": "drops",
+          "startMs": 2750,
+          "endMs": 3105
+        },
+        {
+          "text": "too",
+          "startMs": 3136,
+          "endMs": 3433
+        },
+        {
+          "text": "low,",
+          "startMs": 3458,
+          "endMs": 3755
+        },
+        {
+          "text": "alpha",
+          "startMs": 3941,
+          "endMs": 4296,
+          "emphasis": "amber"
+        },
+        {
+          "text": "cells",
+          "startMs": 4326,
+          "endMs": 4681,
+          "emphasis": "amber"
+        },
+        {
+          "text": "release",
+          "startMs": 4712,
+          "endMs": 5124
+        },
+        {
+          "text": "glucagon,",
+          "startMs": 5159,
+          "endMs": 5600,
+          "emphasis": "teal"
+        },
+        {
+          "text": "which",
+          "startMs": 5798,
+          "endMs": 6153
+        },
+        {
+          "text": "tells",
+          "startMs": 6184,
+          "endMs": 6538
+        },
+        {
+          "text": "the",
+          "startMs": 6569,
+          "endMs": 6866
+        },
+        {
+          "text": "liver",
+          "startMs": 6892,
+          "endMs": 7246
+        },
+        {
+          "text": "to",
+          "startMs": 7277,
+          "endMs": 7545
+        },
+        {
+          "text": "release",
+          "startMs": 7568,
+          "endMs": 7980
+        },
+        {
+          "text": "glucose.",
+          "startMs": 8016,
+          "endMs": 8428
+        },
+        {
+          "text": "And",
+          "startMs": 8784,
+          "endMs": 9081
+        },
+        {
+          "text": "as",
+          "startMs": 9107,
+          "endMs": 9375
+        },
+        {
+          "text": "glucose",
+          "startMs": 9398,
+          "endMs": 9810
+        },
+        {
+          "text": "falls,",
+          "startMs": 9846,
+          "endMs": 10200
+        },
+        {
+          "text": "insulin",
+          "startMs": 10391,
+          "endMs": 10803
+        },
+        {
+          "text": "release",
+          "startMs": 10839,
+          "endMs": 11251
+        },
+        {
+          "text": "slows.",
+          "startMs": 11287,
+          "endMs": 11641
+        },
+        {
+          "text": "This",
+          "startMs": 11992,
+          "endMs": 12318
+        },
+        {
+          "text": "negative",
+          "startMs": 12346,
+          "endMs": 12787,
+          "emphasis": "amber"
+        },
+        {
+          "text": "feedback",
+          "startMs": 12825,
+          "endMs": 13266,
+          "emphasis": "amber"
+        },
+        {
+          "text": "keeps",
+          "startMs": 13304,
+          "endMs": 13658
+        },
+        {
+          "text": "you",
+          "startMs": 13689,
+          "endMs": 13986
+        },
+        {
+          "text": "in",
+          "startMs": 14012,
+          "endMs": 14280
+        },
+        {
+          "text": "balance.",
+          "startMs": 14304,
+          "endMs": 14715
+        }
+      ]
+    },
+    {
+      "id": "diabetes",
+      "from": 2404,
+      "durationInFrames": 484,
+      "audio": null,
+      "words": [
+        {
+          "text": "When",
+          "startMs": 150,
+          "endMs": 496
+        },
+        {
+          "text": "this",
+          "startMs": 526,
+          "endMs": 871
+        },
+        {
+          "text": "fails,",
+          "startMs": 901,
+          "endMs": 1278
+        },
+        {
+          "text": "you",
+          "startMs": 1470,
+          "endMs": 1786
+        },
+        {
+          "text": "get",
+          "startMs": 1813,
+          "endMs": 2128
+        },
+        {
+          "text": "diabetes.",
+          "startMs": 2155,
+          "endMs": 2623,
+          "emphasis": "teal"
+        },
+        {
+          "text": "In",
+          "startMs": 2984,
+          "endMs": 3269
+        },
+        {
+          "text": "type",
+          "startMs": 3293,
+          "endMs": 3639,
+          "emphasis": "amber"
+        },
+        {
+          "text": "1,",
+          "startMs": 3669,
+          "endMs": 3923,
+          "emphasis": "amber"
+        },
+        {
+          "text": "the",
+          "startMs": 4105,
+          "endMs": 4420
+        },
+        {
+          "text": "immune",
+          "startMs": 4448,
+          "endMs": 4855
+        },
+        {
+          "text": "system",
+          "startMs": 4890,
+          "endMs": 5297
+        },
+        {
+          "text": "destroys",
+          "startMs": 5332,
+          "endMs": 5800
+        },
+        {
+          "text": "beta",
+          "startMs": 5840,
+          "endMs": 6186
+        },
+        {
+          "text": "cells,",
+          "startMs": 6216,
+          "endMs": 6592
+        },
+        {
+          "text": "so",
+          "startMs": 6785,
+          "endMs": 7070
+        },
+        {
+          "text": "there's",
+          "startMs": 7094,
+          "endMs": 7501
+        },
+        {
+          "text": "no",
+          "startMs": 7536,
+          "endMs": 7821
+        },
+        {
+          "text": "insulin.",
+          "startMs": 7846,
+          "endMs": 8283
+        },
+        {
+          "text": "In",
+          "startMs": 8641,
+          "endMs": 8926
+        },
+        {
+          "text": "type",
+          "startMs": 8950,
+          "endMs": 9296,
+          "emphasis": "amber"
+        },
+        {
+          "text": "2,",
+          "startMs": 9326,
+          "endMs": 9580,
+          "emphasis": "amber"
+        },
+        {
+          "text": "cells",
+          "startMs": 9762,
+          "endMs": 10139
+        },
+        {
+          "text": "resist",
+          "startMs": 10171,
+          "endMs": 10578
+        },
+        {
+          "text": "insulin",
+          "startMs": 10613,
+          "endMs": 11050
+        },
+        {
+          "text": "and",
+          "startMs": 11088,
+          "endMs": 11404
+        },
+        {
+          "text": "beta",
+          "startMs": 11431,
+          "endMs": 11777
+        },
+        {
+          "text": "cells",
+          "startMs": 11807,
+          "endMs": 12183
+        },
+        {
+          "text": "wear",
+          "startMs": 12216,
+          "endMs": 12561
+        },
+        {
+          "text": "out.",
+          "startMs": 12591,
+          "endMs": 12907
+        },
+        {
+          "text": "Either",
+          "startMs": 13254,
+          "endMs": 13661
+        },
+        {
+          "text": "way,",
+          "startMs": 13696,
+          "endMs": 14011
+        },
+        {
+          "text": "glucose",
+          "startMs": 14199,
+          "endMs": 14636
+        },
+        {
+          "text": "stays",
+          "startMs": 14674,
+          "endMs": 15050
+        },
+        {
+          "text": "high.",
+          "startMs": 15083,
+          "endMs": 15428
+        }
+      ]
+    },
+    {
+      "id": "nclex",
+      "from": 2888,
+      "durationInFrames": 658,
+      "audio": null,
+      "words": [
+        {
+          "text": "Quick",
+          "startMs": 150,
+          "endMs": 506
+        },
+        {
+          "text": "NCLEX",
+          "startMs": 537,
+          "endMs": 893
+        },
+        {
+          "text": "check.",
+          "startMs": 924,
+          "endMs": 1280
+        },
+        {
+          "text": "A",
+          "startMs": 1631,
+          "endMs": 1872
+        },
+        {
+          "text": "client",
+          "startMs": 1893,
+          "endMs": 2278
+        },
+        {
+          "text": "received",
+          "startMs": 2311,
+          "endMs": 2754
+        },
+        {
+          "text": "insulin,",
+          "startMs": 2793,
+          "endMs": 3206
+        },
+        {
+          "text": "then",
+          "startMs": 3402,
+          "endMs": 3730
+        },
+        {
+          "text": "skipped",
+          "startMs": 3758,
+          "endMs": 4172
+        },
+        {
+          "text": "lunch.",
+          "startMs": 4208,
+          "endMs": 4564
+        },
+        {
+          "text": "Which",
+          "startMs": 4915,
+          "endMs": 5271
+        },
+        {
+          "text": "finding",
+          "startMs": 5302,
+          "endMs": 5716
+        },
+        {
+          "text": "should",
+          "startMs": 5752,
+          "endMs": 6137
+        },
+        {
+          "text": "the",
+          "startMs": 6171,
+          "endMs": 6469
+        },
+        {
+          "text": "nurse",
+          "startMs": 6495,
+          "endMs": 6851
+        },
+        {
+          "text": "expect?",
+          "startMs": 6882,
+          "endMs": 7267
+        },
+        {
+          "text": "The",
+          "startMs": 10120,
+          "endMs": 10419
+        },
+        {
+          "text": "answer",
+          "startMs": 10445,
+          "endMs": 10830
+        },
+        {
+          "text": "is",
+          "startMs": 10863,
+          "endMs": 11133
+        },
+        {
+          "text": "C.",
+          "startMs": 11156,
+          "endMs": 11397
+        },
+        {
+          "text": "Insulin",
+          "startMs": 11738,
+          "endMs": 12152
+        },
+        {
+          "text": "kept",
+          "startMs": 12188,
+          "endMs": 12515
+        },
+        {
+          "text": "moving",
+          "startMs": 12543,
+          "endMs": 12928
+        },
+        {
+          "text": "glucose",
+          "startMs": 12962,
+          "endMs": 13376
+        },
+        {
+          "text": "into",
+          "startMs": 13412,
+          "endMs": 13739
+        },
+        {
+          "text": "cells",
+          "startMs": 13767,
+          "endMs": 14124
+        },
+        {
+          "text": "with",
+          "startMs": 14155,
+          "endMs": 14482
+        },
+        {
+          "text": "no",
+          "startMs": 14510,
+          "endMs": 14780
+        },
+        {
+          "text": "food",
+          "startMs": 14803,
+          "endMs": 15130
+        },
+        {
+          "text": "coming",
+          "startMs": 15159,
+          "endMs": 15544
+        },
+        {
+          "text": "in,",
+          "startMs": 15577,
+          "endMs": 15847
+        },
+        {
+          "text": "so",
+          "startMs": 16030,
+          "endMs": 16300
+        },
+        {
+          "text": "glucose",
+          "startMs": 16323,
+          "endMs": 16737
+        },
+        {
+          "text": "fell",
+          "startMs": 16773,
+          "endMs": 17100
+        },
+        {
+          "text": "too",
+          "startMs": 17129,
+          "endMs": 17427
+        },
+        {
+          "text": "low.",
+          "startMs": 17453,
+          "endMs": 17752
+        },
+        {
+          "text": "Shakiness",
+          "startMs": 18097,
+          "endMs": 18569
+        },
+        {
+          "text": "and",
+          "startMs": 18610,
+          "endMs": 18908
+        },
+        {
+          "text": "sweating",
+          "startMs": 18934,
+          "endMs": 19377
+        },
+        {
+          "text": "signal",
+          "startMs": 19416,
+          "endMs": 19801
+        },
+        {
+          "text": "hypoglycemia.",
+          "startMs": 19834,
+          "endMs": 20392,
+          "emphasis": "amber"
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "from": 3546,
+      "durationInFrames": 363,
+      "audio": null,
+      "words": [
+        {
+          "text": "So:",
+          "startMs": 150,
+          "endMs": 439
+        },
+        {
+          "text": "beta",
+          "startMs": 624,
+          "endMs": 974
+        },
+        {
+          "text": "cells",
+          "startMs": 1005,
+          "endMs": 1386
+        },
+        {
+          "text": "release",
+          "startMs": 1419,
+          "endMs": 1862
+        },
+        {
+          "text": "insulin",
+          "startMs": 1901,
+          "endMs": 2344,
+          "emphasis": "amber"
+        },
+        {
+          "text": "when",
+          "startMs": 2382,
+          "endMs": 2733
+        },
+        {
+          "text": "glucose",
+          "startMs": 2763,
+          "endMs": 3206
+        },
+        {
+          "text": "rises,",
+          "startMs": 3245,
+          "endMs": 3626
+        },
+        {
+          "text": "muscle",
+          "startMs": 3819,
+          "endMs": 4232
+        },
+        {
+          "text": "and",
+          "startMs": 4268,
+          "endMs": 4587
+        },
+        {
+          "text": "fat",
+          "startMs": 4615,
+          "endMs": 4934
+        },
+        {
+          "text": "take",
+          "startMs": 4962,
+          "endMs": 5312
+        },
+        {
+          "text": "glucose",
+          "startMs": 5343,
+          "endMs": 5786
+        },
+        {
+          "text": "in,",
+          "startMs": 5825,
+          "endMs": 6113
+        },
+        {
+          "text": "and",
+          "startMs": 6298,
+          "endMs": 6618
+        },
+        {
+          "text": "the",
+          "startMs": 6646,
+          "endMs": 6965
+        },
+        {
+          "text": "liver",
+          "startMs": 6993,
+          "endMs": 7374
+        },
+        {
+          "text": "stores",
+          "startMs": 7407,
+          "endMs": 7820
+        },
+        {
+          "text": "it",
+          "startMs": 7855,
+          "endMs": 8144
+        },
+        {
+          "text": "as",
+          "startMs": 8169,
+          "endMs": 8458
+        },
+        {
+          "text": "glycogen.",
+          "startMs": 8483,
+          "endMs": 8957,
+          "emphasis": "amber"
+        },
+        {
+          "text": "Follow",
+          "startMs": 9318,
+          "endMs": 9730
+        },
+        {
+          "text": "for",
+          "startMs": 9766,
+          "endMs": 10086
+        },
+        {
+          "text": "more",
+          "startMs": 10113,
+          "endMs": 10464
+        },
+        {
+          "text": "A",
+          "startMs": 10494,
+          "endMs": 10752
+        },
+        {
+          "text": "and",
+          "startMs": 10774,
+          "endMs": 11094
+        },
+        {
+          "text": "P.",
+          "startMs": 11122,
+          "endMs": 11379
+        }
+      ]
+    }
+  ]
+}
