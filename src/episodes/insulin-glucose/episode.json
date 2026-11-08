@@ -1,0 +1,666 @@
+{
+  "slug": "insulin-glucose",
+  "title": "How Insulin Lowers Blood Sugar",
+  "category": "Physiology",
+  "audience": "Pre-nursing, A&P and nursing students",
+  "learningObjectives": [
+    "Describe where insulin is made and what triggers its release",
+    "Explain how insulin lowers blood glucose in muscle, fat and liver, and how glucagon opposes it",
+    "Recognize expected findings of hypoglycemia in a client receiving insulin"
+  ],
+  "claims": [
+    {
+      "text": "After a meal, blood glucose rises, and the body keeps blood glucose within a narrow range. (Sources differ on the upper limit, 100 vs 110 mg/dL, so no number is stated.)",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas, Figure 17.19"
+    },
+    {
+      "text": "Insulin is produced by beta cells in the pancreatic islets (islets of Langerhans).",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas"
+    },
+    {
+      "text": "Elevated blood glucose stimulates beta cells to release insulin.",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas"
+    },
+    {
+      "text": "Skeletal muscle and adipose cells are insulin's primary targets for glucose uptake.",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas"
+    },
+    {
+      "text": "Insulin binds a tyrosine kinase receptor on the cell surface, which moves intracellular vesicles of GLUT4 glucose transporters to the plasma membrane, increasing glucose uptake.",
+      "source": "StatPearls, Biochemistry, Insulin Metabolic Effects (NBK525983); OpenStax A&P 2e, §17.9"
+    },
+    {
+      "text": "Glucose taken into cells is used for energy (glycolysis) or stored, so blood glucose falls.",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas"
+    },
+    {
+      "text": "In the liver, insulin promotes conversion of glucose to glycogen and inhibits glycogenolysis and gluconeogenesis.",
+      "source": "OpenStax A&P 2e, §17.9; StatPearls, Biochemistry, Insulin Metabolic Effects (NBK525983)"
+    },
+    {
+      "text": "Alpha cells release glucagon when blood glucose is low; glucagon stimulates the liver to break down glycogen and make glucose, raising blood glucose.",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas"
+    },
+    {
+      "text": "As blood glucose falls, further insulin release is inhibited (negative feedback).",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas"
+    },
+    {
+      "text": "Type 1 diabetes is an autoimmune disease in which beta cells are destroyed and do not produce insulin.",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas (Diabetes Mellitus)"
+    },
+    {
+      "text": "In type 2 diabetes, cells become resistant to insulin and beta cells eventually become exhausted.",
+      "source": "OpenStax Anatomy & Physiology 2e, §17.9 The Endocrine Pancreas (Diabetes Mellitus)"
+    },
+    {
+      "text": "Too much insulin in the bloodstream, or insulin without enough food, can cause low blood sugar; below 70 mg/dL is considered low.",
+      "source": "MedlinePlus Medical Encyclopedia, Low blood sugar (000386): Causes; ADA Standards of Care, Section 6, hypoglycemia level 1 <70 mg/dL"
+    },
+    {
+      "text": "Symptoms of low blood sugar include shaking or trembling, sweating, fast or pounding heartbeat, hunger and unclear thinking.",
+      "source": "MedlinePlus Medical Encyclopedia, Low blood sugar (000386): Symptoms"
+    },
+    {
+      "text": "Hot, dry, flushed skin, Kussmaul breathing, and increased thirst and urination point to hyperglycemia or DKA, not hypoglycemia (quiz distractors).",
+      "source": "Hinkle & Cheever, Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Diabetes: hyperglycemia, DKA and hypoglycemia manifestations"
+    }
+  ],
+  "review": {
+    "status": "pending"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "After a meal, **sugar** floods your blood. Yet blood glucose stays in a narrow range. The hormone that brings it down is **insulin**. Here's how.",
+      "params": {
+        "kicker": "Physiology",
+        "title": "How insulin lowers blood sugar",
+        "subject": {
+          "kind": "cell",
+          "nucleus": true,
+          "scale": 1.0,
+          "rotation": [
+            0.4,
+            0,
+            0.2
+          ],
+          "spin": 0.3,
+          "position": [
+            0,
+            -0.4,
+            0
+          ]
+        },
+        "shot": {
+          "type": "orbit",
+          "radius": 9.8,
+          "height": 1.2,
+          "from": -30,
+          "to": 20
+        }
+      }
+    },
+    {
+      "id": "beta-cells",
+      "template": "micro",
+      "narration": "Insulin is made in your ==pancreas==, by **beta cells** clustered in tiny islands called ==islets of Langerhans==. When blood glucose rises after you eat, beta cells release insulin into the blood.",
+      "params": {
+        "heading": "The source: beta cells",
+        "organism": {
+          "kind": "cell",
+          "nucleus": true,
+          "scale": 0.45
+        },
+        "count": 12,
+        "hero": {
+          "kind": "cell",
+          "nucleus": true,
+          "scale": 0.9,
+          "spin": 0.15
+        },
+        "shot": {
+          "type": "push",
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "dir": [
+            0,
+            0.1,
+            1
+          ],
+          "from": 12,
+          "to": 9.5
+        },
+        "callouts": [
+          {
+            "text": "Beta cell",
+            "anchor": [
+              0.8,
+              0.8,
+              0.6
+            ],
+            "at": "@beta",
+            "tone": "teal",
+            "side": "right"
+          },
+          {
+            "text": "Islet of Langerhans",
+            "anchor": [
+              -1.0,
+              -0.6,
+              0.4
+            ],
+            "at": "@islets",
+            "tone": "white",
+            "side": "left"
+          },
+          {
+            "text": "Glucose ↑ → insulin out",
+            "anchor": [
+              0.9,
+              -0.7,
+              0.7
+            ],
+            "at": "@release",
+            "tone": "amber",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "id": "receptor",
+      "template": "crossSection",
+      "narration": "Insulin travels to its main targets: ==skeletal muscle== and ==fat cells==. It binds a ==receptor== on the cell surface, which signals the cell to move **GLUT4** glucose transporters up to the membrane.",
+      "params": {
+        "heading": "Unlocking the cell",
+        "subjects": [
+          {
+            "kind": "cell",
+            "nucleus": true,
+            "scale": 1.3
+          }
+        ],
+        "axis": "z",
+        "from": 2.0,
+        "to": 0,
+        "at": "@binds",
+        "shot": {
+          "type": "keyframes",
+          "keys": [
+            {
+              "at": 0,
+              "position": [
+                3.5,
+                2.0,
+                9.5
+              ],
+              "target": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "at": "@binds",
+              "position": [
+                1.2,
+                0.8,
+                10.2
+              ],
+              "target": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "at": "100%",
+              "position": [
+                0.4,
+                0.4,
+                9.6
+              ],
+              "target": [
+                0.2,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "flows": [
+          {
+            "points": [
+              [
+                -4.2,
+                3.4,
+                0.4
+              ],
+              [
+                -3.0,
+                2.6,
+                0.3
+              ],
+              [
+                -2.0,
+                1.9,
+                0.2
+              ],
+              [
+                -1.35,
+                1.3,
+                0.1
+              ]
+            ],
+            "color": "teal",
+            "particle": "sphere",
+            "particleSize": 0.12,
+            "radius": 0.25,
+            "count": 18,
+            "speed": 0.08,
+            "at": "@travels"
+          }
+        ],
+        "callouts": [
+          {
+            "text": "Insulin",
+            "anchor": [
+              -2.0,
+              1.9,
+              0.2
+            ],
+            "at": "@travels",
+            "until": "@binds",
+            "tone": "teal",
+            "side": "left"
+          },
+          {
+            "text": "Insulin receptor",
+            "anchor": [
+              -1.25,
+              1.2,
+              0.1
+            ],
+            "at": "@receptor",
+            "tone": "teal",
+            "side": "left"
+          },
+          {
+            "text": "GLUT4 → membrane",
+            "anchor": [
+              1.0,
+              -0.9,
+              0.0
+            ],
+            "at": "@glut4",
+            "tone": "amber",
+            "side": "right"
+          }
+        ],
+        "arrows": [
+          {
+            "points": [
+              [
+                0.35,
+                -0.25,
+                0.05
+              ],
+              [
+                0.65,
+                -0.55,
+                0.05
+              ],
+              [
+                0.95,
+                -0.9,
+                0.0
+              ]
+            ],
+            "at": "@move",
+            "tone": "amber"
+          },
+          {
+            "points": [
+              [
+                -0.2,
+                -0.45,
+                0.05
+              ],
+              [
+                -0.35,
+                -0.8,
+                0.05
+              ],
+              [
+                -0.5,
+                -1.2,
+                0.0
+              ]
+            ],
+            "at": "@move+0.3",
+            "tone": "amber"
+          },
+          {
+            "points": [
+              [
+                0.5,
+                0.2,
+                0.05
+              ],
+              [
+                0.9,
+                0.3,
+                0.05
+              ],
+              [
+                1.25,
+                0.4,
+                0.0
+              ]
+            ],
+            "at": "@move+0.6",
+            "tone": "amber"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uptake",
+      "template": "flow",
+      "narration": "Those transporters open the door. Glucose flows out of the blood and into the cell, where it's burned for energy or stored. Blood glucose starts to fall.",
+      "params": {
+        "heading": "Glucose moves in",
+        "shot": {
+          "type": "push",
+          "target": [
+            0,
+            0.3,
+            0
+          ],
+          "dir": [
+            0.05,
+            0.1,
+            1
+          ],
+          "from": 14,
+          "to": 12,
+          "wide": 0.8
+        },
+        "subjects": [
+          {
+            "kind": "cell",
+            "nucleus": true,
+            "scale": 1.0,
+            "position": [
+              1.4,
+              -0.6,
+              0
+            ]
+          }
+        ],
+        "flows": [
+          {
+            "points": [
+              [
+                -4.2,
+                2.3,
+                0
+              ],
+              [
+                -1.5,
+                2.2,
+                0.1
+              ],
+              [
+                1.0,
+                2.3,
+                0.1
+              ],
+              [
+                4.2,
+                2.2,
+                0
+              ]
+            ],
+            "color": "arterial",
+            "particle": "rbc",
+            "particleSize": 0.22,
+            "radius": 0.45,
+            "count": 22,
+            "speed": 0.06,
+            "wall": true
+          },
+          {
+            "points": [
+              [
+                -2.6,
+                2.1,
+                0.2
+              ],
+              [
+                -1.6,
+                1.2,
+                0.3
+              ],
+              [
+                -0.6,
+                0.3,
+                0.4
+              ],
+              [
+                0.3,
+                -0.4,
+                0.4
+              ]
+            ],
+            "color": "amber",
+            "particle": "sphere",
+            "particleSize": 0.1,
+            "radius": 0.3,
+            "count": 40,
+            "speed": 0.1,
+            "at": "@flows"
+          }
+        ],
+        "callouts": [
+          {
+            "text": "Blood vessel",
+            "anchor": [
+              2.6,
+              2.3,
+              0
+            ],
+            "at": 0.3,
+            "tone": "white",
+            "side": "right"
+          },
+          {
+            "text": "Glucose",
+            "anchor": [
+              -1.6,
+              1.2,
+              0.3
+            ],
+            "at": "@glucose",
+            "tone": "amber",
+            "side": "left"
+          },
+          {
+            "text": "Muscle or fat cell",
+            "anchor": [
+              1.4,
+              -1.2,
+              0.8
+            ],
+            "at": "@cell",
+            "tone": "teal",
+            "side": "right"
+          },
+          {
+            "text": "Blood glucose ↓",
+            "anchor": [
+              -0.8,
+              2.3,
+              0
+            ],
+            "at": "@fall",
+            "tone": "amber",
+            "side": "left"
+          }
+        ]
+      }
+    },
+    {
+      "id": "liver",
+      "template": "concept",
+      "narration": "In the ==liver==, insulin works differently. It tells liver cells to store glucose as **glycogen**, and it shuts down the liver's own glucose production, so less new sugar enters the blood.",
+      "params": {
+        "term": "Insulin and the liver",
+        "definition": "Insulin makes the liver store glucose and stop releasing it.",
+        "bullets": [
+          {
+            "text": "Stores glucose as glycogen",
+            "at": "@glycogen"
+          },
+          {
+            "text": "Blocks glycogen breakdown",
+            "at": "@shuts"
+          },
+          {
+            "text": "Blocks new glucose production",
+            "at": "@production"
+          }
+        ],
+        "formula": "Glucose → Glycogen",
+        "backdrop": {
+          "kind": "cell",
+          "nucleus": true,
+          "scale": 1.1,
+          "rotation": [
+            0.6,
+            0,
+            0.3
+          ],
+          "spin": 0.2
+        }
+      }
+    },
+    {
+      "id": "feedback",
+      "template": "compare",
+      "narration": "Insulin has a partner. When glucose drops too low, **alpha cells** release ==glucagon==, which tells the liver to release glucose. And as glucose falls, insulin release slows. This **negative feedback** keeps you in balance.",
+      "params": {
+        "title": "Two hormones, one balance",
+        "left": {
+          "title": "Insulin",
+          "tone": "teal",
+          "points": [
+            "From beta cells",
+            "Released when glucose is high",
+            "Liver stores glycogen",
+            "Lowers blood glucose"
+          ]
+        },
+        "right": {
+          "title": "Glucagon",
+          "tone": "amber",
+          "points": [
+            "From alpha cells",
+            "Released when glucose is low",
+            "Liver releases glucose",
+            "Raises blood glucose"
+          ]
+        },
+        "revealAt": [
+          "@partner",
+          "@alpha"
+        ]
+      }
+    },
+    {
+      "id": "diabetes",
+      "template": "micro",
+      "narration": "When this fails, you get ==diabetes==. In **type 1**, the immune system destroys beta cells, so there's no insulin. In **type 2**, cells resist insulin and beta cells wear out. Either way, glucose stays high.",
+      "params": {
+        "heading": "When insulin fails",
+        "organism": {
+          "kind": "cell",
+          "nucleus": true,
+          "scale": 0.55
+        },
+        "count": 10,
+        "shot": {
+          "type": "orbit",
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "radius": 11,
+          "height": 0.8,
+          "from": 20,
+          "to": -15
+        },
+        "callouts": [
+          {
+            "text": "Type 1: no insulin",
+            "anchor": [
+              -1.2,
+              0.9,
+              0.5
+            ],
+            "at": "@destroys",
+            "tone": "teal",
+            "side": "left"
+          },
+          {
+            "text": "Type 2: insulin resistance",
+            "anchor": [
+              1.1,
+              -0.6,
+              0.5
+            ],
+            "at": "@resist",
+            "tone": "amber",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nclex",
+      "template": "quiz",
+      "narration": "Quick NCLEX check. A client received insulin, then skipped lunch. Which finding should the nurse expect? [pause 2.5] The answer is C. Insulin kept moving glucose into cells with no food coming in, so glucose fell too low. Shakiness and sweating signal **hypoglycemia**.",
+      "holdSeconds": 0.8,
+      "params": {
+        "question": "A client received insulin, then skipped lunch. Which finding should the nurse expect?",
+        "options": [
+          "Hot, dry, flushed skin",
+          "Deep, rapid breathing",
+          "Shakiness and sweating",
+          "Increased thirst and urination"
+        ],
+        "answer": 2,
+        "revealAt": "@answer",
+        "rationale": "Insulin + no food → glucose < 70 mg/dL: tremor, sweating, fast heartbeat."
+      }
+    },
+    {
+      "id": "recap",
+      "template": "recap",
+      "narration": "So: beta cells release **insulin** when glucose rises, muscle and fat take glucose in, and the liver stores it as **glycogen**. Follow for more A and P.",
+      "params": {
+        "points": [
+          "Beta cells release insulin when glucose rises",
+          "GLUT4 lets glucose into muscle and fat",
+          "Liver stores glucose; glucagon does the opposite"
+        ]
+      }
+    }
+  ]
+}
