@@ -11,7 +11,7 @@ const toneColor = { teal: colors.tealBright, amber: colors.amber, white: colors.
  * Anatomical labels pinned to 3D points. They follow the camera because they
  * use the same Pose as the 3D stage. A dot marks the structure, a leader
  * line draws out, and the label slides in. Labels flip sides automatically
- * to stay inside the platform safe zone.
+ * to stay inside the platform safe zone, and never overlap each other.
  */
 export const Callouts: React.FC<{ items?: Callout[]; pose: Pose }> = ({ items = [], pose }) => {
   const frame = useCurrentFrame();
@@ -21,25 +21,37 @@ export const Callouts: React.FC<{ items?: Callout[]; pose: Pose }> = ({ items = 
   const ts = useTypeScale();
   const safe = useSafe();
 
+  // Pass 1: lay out every visible label.
+  const dx = width * (format === "vertical" ? 0.13 : 0.08);
+  const dy = -height * 0.035;
+  const placed = items
+    .map((c, i) => {
+      const start = resolve(c.at, i * motion.calloutStagger);
+      const end = c.until !== undefined ? resolve(c.until) : Number.POSITIVE_INFINITY;
+      const r = revealValue(frame, fps, start, end);
+      if (r <= 0.001) return null;
+      const a = projectPoint(c.anchor, pose, width, height, format);
+      if (!a.visible) return null;
+      const labelW = ts.label * (c.text.length * 0.56) + ts.label * 1.4;
+      let side: "left" | "right" = c.side ?? (a.x > width / 2 ? "right" : "left");
+      if (side === "right" && a.x + dx + labelW > width - safe.right) side = "left";
+      if (side === "left" && a.x - dx - labelW < safe.left) side = "right";
+      return { c, i, r, a, labelW, side, ey: Math.max(safe.top + ts.label, a.y + dy) };
+    })
+    .filter((x): x is NonNullable<typeof x> => x !== null);
+
+  // Pass 2: labels on the same side never overlap; push them apart vertically.
+  const gap = ts.label * 1.75;
+  for (const side of ["left", "right"] as const) {
+    const col = placed.filter((p) => p.side === side).sort((p, q) => p.ey - q.ey);
+    for (let k = 1; k < col.length; k++) col[k].ey = Math.max(col[k].ey, col[k - 1].ey + gap);
+  }
+
   return (
     <svg width={width} height={height} style={{ position: "absolute", inset: 0, overflow: "visible" }}>
-      {items.map((c, i) => {
-        const start = resolve(c.at, i * motion.calloutStagger);
-        const end = c.until !== undefined ? resolve(c.until) : Number.POSITIVE_INFINITY;
-        const r = revealValue(frame, fps, start, end);
-        if (r <= 0.001) return null;
-        const a = projectPoint(c.anchor, pose, width, height, format);
-        if (!a.visible) return null;
-
+      {placed.map(({ c, i, r, a, labelW, side, ey }) => {
         const tone = toneColor[c.tone ?? "teal"];
-        const dx = width * (format === "vertical" ? 0.13 : 0.08);
-        const dy = -height * 0.035;
-        const labelW = ts.label * (c.text.length * 0.56) + ts.label * 1.4;
-        let side = c.side ?? (a.x > width / 2 ? "right" : "left");
-        if (side === "right" && a.x + dx + labelW > width - safe.right) side = "left";
-        if (side === "left" && a.x - dx - labelW < safe.left) side = "right";
         const ex = side === "right" ? a.x + dx : a.x - dx;
-        const ey = Math.max(safe.top + ts.label, a.y + dy);
         const line = interpolate(r, [0, 0.6], [0, 1], { extrapolateRight: "clamp" });
         const lx = a.x + (ex - a.x) * line;
         const ly = a.y + (ey - a.y) * line;
