@@ -1,0 +1,734 @@
+{
+  "slug": "oxygen-transport",
+  "title": "How Your Blood Carries Oxygen",
+  "category": "Physiology",
+  "audience": "Pre-nursing and A&P students",
+  "learningObjectives": [
+    "Explain how erythrocyte structure supports gas transport",
+    "Describe oxygen loading in the lungs and unloading in tissues, including the Bohr effect",
+    "Recognize expected findings in a client with anemia"
+  ],
+  "claims": [
+    {
+      "text": "The bone marrow produces more than 2 million red blood cells per second.",
+      "source": "OpenStax Anatomy & Physiology 2e, §18.3 Erythrocytes"
+    },
+    {
+      "text": "Erythrocytes are biconcave discs that lack a nucleus; the shape increases surface area for gas exchange and flexibility to pass through narrow capillaries.",
+      "source": "OpenStax Anatomy & Physiology 2e, §18.3 Erythrocytes"
+    },
+    {
+      "text": "An erythrocyte contains about 300 million hemoglobin molecules.",
+      "source": "OpenStax Anatomy & Physiology 2e, §18.3 Erythrocytes"
+    },
+    {
+      "text": "Each hemoglobin has four heme groups, each containing an iron ion that binds one O2; one hemoglobin carries up to four oxygen molecules.",
+      "source": "OpenStax Anatomy & Physiology 2e, §18.3 Erythrocytes; §22.5 Transport of Gases"
+    },
+    {
+      "text": "Oxygen diffuses from the alveoli into pulmonary capillary blood and binds hemoglobin to form oxyhemoglobin.",
+      "source": "OpenStax Anatomy & Physiology 2e, §22.4 Gas Exchange; §22.5 Transport of Gases"
+    },
+    {
+      "text": "Oxygenated blood is bright red; deoxygenated blood is dark red, not blue.",
+      "source": "OpenStax Anatomy & Physiology 2e, §18.3 Erythrocytes"
+    },
+    {
+      "text": "Oxygenated blood returns from the lungs to the left side of the heart, which pumps it through systemic arteries.",
+      "source": "OpenStax Anatomy & Physiology 2e, §19.1 Heart Anatomy"
+    },
+    {
+      "text": "Increased CO2 and decreased pH reduce hemoglobin's affinity for oxygen, promoting unloading in tissues (Bohr effect).",
+      "source": "OpenStax Anatomy & Physiology 2e, §22.5 Transport of Gases"
+    },
+    {
+      "text": "Most CO2 is transported as bicarbonate, formed in erythrocytes by carbonic anhydrase; smaller amounts bind hemoglobin or dissolve in plasma. (Exact percentages vary by source, so none are stated.)",
+      "source": "OpenStax Anatomy & Physiology 2e, §22.5 Transport of Gases; OpenStax Biology 2e, §39.4"
+    },
+    {
+      "text": "Anemia reduces oxygen-carrying capacity; fatigue and compensatory tachycardia are expected findings.",
+      "source": "Hinkle & Cheever, Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Anemia: clinical manifestations"
+    }
+  ],
+  "review": {
+    "status": "pending"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "Right now, your bone marrow is making more than **2 million** new ==red blood cells== every second. Each one has a single job: deliver **oxygen**. Here's how it works.",
+      "params": {
+        "title": "How your blood carries oxygen",
+        "subject": {
+          "kind": "rbc",
+          "scale": 1.15,
+          "rotation": [
+            1.25,
+            0,
+            0.45
+          ],
+          "spin": 0.35,
+          "position": [
+            0,
+            -0.4,
+            0
+          ]
+        },
+        "shot": {
+          "type": "orbit",
+          "radius": 9.5,
+          "height": 1.2,
+          "from": -30,
+          "to": 20
+        }
+      }
+    },
+    {
+      "id": "shape",
+      "template": "crossSection",
+      "narration": "Meet the ==erythrocyte==. It's a flexible, **biconcave** disc: thin in the middle, thicker at the edges, with no nucleus. That shape adds surface area for gas exchange and lets it bend through tiny ==capillaries==.",
+      "params": {
+        "heading": "Built for gas exchange",
+        "subjects": [
+          {
+            "kind": "rbc",
+            "scale": 1.6
+          }
+        ],
+        "axis": "x",
+        "from": 2.0,
+        "to": 0,
+        "at": "@thin",
+        "shot": {
+          "type": "keyframes",
+          "keys": [
+            {
+              "at": 0,
+              "position": [
+                0,
+                8.2,
+                5.2
+              ],
+              "target": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "at": "@thin",
+              "position": [
+                2.2,
+                1.4,
+                9.2
+              ],
+              "target": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "at": "100%",
+              "position": [
+                3.2,
+                0.9,
+                8.9
+              ],
+              "target": [
+                -0.2,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "callouts": [
+          {
+            "text": "Thin center",
+            "anchor": [
+              0.0,
+              0.172,
+              0.0
+            ],
+            "at": "@middle",
+            "tone": "teal",
+            "side": "right"
+          },
+          {
+            "text": "Thick rim",
+            "anchor": [
+              -1.231,
+              0.517,
+              0.0
+            ],
+            "at": "@edges",
+            "tone": "amber",
+            "side": "left"
+          },
+          {
+            "text": "No nucleus",
+            "anchor": [
+              -0.615,
+              -0.148,
+              0.0
+            ],
+            "at": "@nucleus",
+            "tone": "white",
+            "side": "left"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hemoglobin",
+      "template": "concept",
+      "narration": "Packed inside are about **300 million** molecules of ==hemoglobin==. Each has **four** ==heme== groups, and each heme holds an **iron** atom that binds one oxygen. So one hemoglobin carries up to four oxygen molecules.",
+      "params": {
+        "term": "Hemoglobin",
+        "definition": "The iron-containing protein that carries oxygen inside red blood cells.",
+        "bullets": [
+          {
+            "text": "~300 million per red blood cell",
+            "at": "@300"
+          },
+          {
+            "text": "4 heme groups per molecule",
+            "at": "@heme"
+          },
+          {
+            "text": "1 iron atom binds 1 O₂",
+            "at": "@iron"
+          }
+        ],
+        "formula": "Hb + 4 O₂ ⇌ Hb(O₂)₄",
+        "backdrop": {
+          "kind": "rbc",
+          "scale": 1.2,
+          "rotation": [
+            0.9,
+            0,
+            0.3
+          ],
+          "spin": 0.25
+        }
+      }
+    },
+    {
+      "id": "lungs",
+      "template": "anatomy",
+      "narration": "In the ==lungs==, oxygen diffuses from the ==alveoli== into surrounding ==capillaries==, and hemoglobin grabs it, becoming **oxyhemoglobin**. Fun fact: blood without oxygen isn't blue. It's dark red. Blue is just a diagram convention.",
+      "params": {
+        "heading": "Loading: the lungs",
+        "subjects": [
+          {
+            "kind": "alveoli",
+            "scale": 0.8
+          }
+        ],
+        "shot": {
+          "type": "orbit",
+          "target": [
+            0,
+            0.3,
+            0
+          ],
+          "radius": 12,
+          "height": 1.6,
+          "from": -28,
+          "to": 12,
+          "wide": 0.85
+        },
+        "arrows": [
+          {
+            "points": [
+              [
+                0,
+                0.1,
+                0.35
+              ],
+              [
+                0.25,
+                -0.2,
+                0.75
+              ],
+              [
+                0.5,
+                -0.45,
+                0.85
+              ]
+            ],
+            "at": "@diffuses",
+            "tone": "amber"
+          },
+          {
+            "points": [
+              [
+                0.95,
+                0.4,
+                0.3
+              ],
+              [
+                1.1,
+                0.15,
+                0.65
+              ],
+              [
+                1.3,
+                -0.05,
+                0.75
+              ]
+            ],
+            "at": "@diffuses+0.3",
+            "tone": "amber"
+          }
+        ],
+        "callouts": [
+          {
+            "text": "Alveolus",
+            "anchor": [
+              -0.2,
+              0.45,
+              0.62
+            ],
+            "at": "@alveoli",
+            "tone": "teal",
+            "side": "left"
+          },
+          {
+            "text": "Capillary",
+            "anchor": [
+              1.45,
+              0.75,
+              0.35
+            ],
+            "at": "@capillaries",
+            "tone": "teal",
+            "side": "right"
+          },
+          {
+            "text": "O₂ → blood",
+            "anchor": [
+              0.5,
+              -0.45,
+              0.85
+            ],
+            "at": "@grabs",
+            "tone": "amber",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "id": "route",
+      "template": "flow",
+      "narration": "That oxygen-rich blood returns to the left side of the ==heart==, which pumps it through the ==arteries== to tissues all over your body.",
+      "params": {
+        "heading": "The route",
+        "shot": {
+          "type": "dolly",
+          "from": [
+            0,
+            0.9,
+            16.5
+          ],
+          "to": [
+            0.9,
+            0.7,
+            14.8
+          ],
+          "target": [
+            0,
+            0.8,
+            0
+          ],
+          "wide": 1.25
+        },
+        "subjects": [
+          {
+            "kind": "alveoli",
+            "scale": 0.42,
+            "position": [
+              0,
+              3.3,
+              -0.4
+            ],
+            "capillaries": false
+          },
+          {
+            "kind": "cell",
+            "scale": 0.5,
+            "position": [
+              -0.5,
+              -3.3,
+              -0.3
+            ]
+          },
+          {
+            "kind": "cell",
+            "scale": 0.42,
+            "position": [
+              0.6,
+              -3.1,
+              -0.8
+            ]
+          }
+        ],
+        "flows": [
+          {
+            "points": [
+              [
+                -0.35,
+                2.7,
+                0
+              ],
+              [
+                -1.1,
+                1.6,
+                0.2
+              ],
+              [
+                -0.6,
+                0.3,
+                0.3
+              ],
+              [
+                -1.2,
+                -1.2,
+                0.2
+              ],
+              [
+                -0.5,
+                -2.6,
+                0
+              ]
+            ],
+            "color": "arterial",
+            "radius": 0.2,
+            "count": 55,
+            "speed": 0.11
+          },
+          {
+            "points": [
+              [
+                0.5,
+                -2.6,
+                0
+              ],
+              [
+                1.2,
+                -1.2,
+                0.2
+              ],
+              [
+                0.6,
+                0.3,
+                0.3
+              ],
+              [
+                1.1,
+                1.6,
+                0.2
+              ],
+              [
+                0.35,
+                2.7,
+                0
+              ]
+            ],
+            "color": "venous",
+            "radius": 0.2,
+            "count": 55,
+            "speed": 0.11
+          }
+        ],
+        "callouts": [
+          {
+            "text": "Lungs",
+            "anchor": [
+              0,
+              3.3,
+              0
+            ],
+            "at": 0.3,
+            "tone": "teal",
+            "side": "right"
+          },
+          {
+            "text": "Heart",
+            "anchor": [
+              0,
+              0.3,
+              0.3
+            ],
+            "at": "@heart",
+            "tone": "white",
+            "side": "right"
+          },
+          {
+            "text": "Body tissues",
+            "anchor": [
+              0,
+              -3.2,
+              0
+            ],
+            "at": "@tissues",
+            "tone": "teal",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unloading",
+      "template": "flow",
+      "narration": "In active tissues, oxygen is low while **carbon dioxide** and acid are high. That loosens hemoglobin's grip, so it releases oxygen right where it's needed. This is the **Bohr effect**.",
+      "params": {
+        "heading": "Unloading: the tissues",
+        "shot": {
+          "type": "push",
+          "target": [
+            0.1,
+            0.25,
+            0
+          ],
+          "dir": [
+            0.05,
+            0.12,
+            1
+          ],
+          "from": 15,
+          "to": 12.8,
+          "wide": 0.75
+        },
+        "subjects": [
+          {
+            "kind": "cell",
+            "scale": 0.55,
+            "position": [
+              -1.25,
+              -1.45,
+              -0.4
+            ]
+          },
+          {
+            "kind": "cell",
+            "scale": 0.5,
+            "position": [
+              0.45,
+              -1.55,
+              -0.2
+            ]
+          },
+          {
+            "kind": "cell",
+            "scale": 0.5,
+            "position": [
+              1.65,
+              -1.3,
+              -0.6
+            ]
+          },
+          {
+            "kind": "cell",
+            "scale": 0.45,
+            "position": [
+              -0.55,
+              1.45,
+              -0.6
+            ]
+          },
+          {
+            "kind": "cell",
+            "scale": 0.5,
+            "position": [
+              1.25,
+              1.35,
+              -0.5
+            ]
+          }
+        ],
+        "flows": [
+          {
+            "points": [
+              [
+                -3.4,
+                0.35,
+                0
+              ],
+              [
+                -1.2,
+                0.0,
+                0.2
+              ],
+              [
+                0,
+                -0.1,
+                0.25
+              ],
+              [
+                1.2,
+                0.0,
+                0.2
+              ],
+              [
+                3.4,
+                0.35,
+                0
+              ]
+            ],
+            "color": "deoxygenate",
+            "radius": 0.36,
+            "count": 45,
+            "speed": 0.07
+          }
+        ],
+        "arrows": [
+          {
+            "points": [
+              [
+                -1.05,
+                -0.25,
+                0.3
+              ],
+              [
+                -1.15,
+                -0.65,
+                0.2
+              ],
+              [
+                -1.2,
+                -0.95,
+                0.1
+              ]
+            ],
+            "at": "@releases",
+            "tone": "amber"
+          },
+          {
+            "points": [
+              [
+                0.45,
+                -0.35,
+                0.35
+              ],
+              [
+                0.45,
+                -0.7,
+                0.3
+              ],
+              [
+                0.45,
+                -1.05,
+                0.2
+              ]
+            ],
+            "at": "@releases+0.2",
+            "tone": "amber"
+          },
+          {
+            "points": [
+              [
+                -0.45,
+                0.3,
+                0.3
+              ],
+              [
+                -0.5,
+                0.65,
+                0.1
+              ],
+              [
+                -0.55,
+                0.95,
+                -0.1
+              ]
+            ],
+            "at": "@releases+0.4",
+            "tone": "amber"
+          }
+        ],
+        "callouts": [
+          {
+            "text": "CO₂ ↑  pH ↓",
+            "anchor": [
+              1.65,
+              -1.3,
+              -0.3
+            ],
+            "at": "@acid",
+            "tone": "teal",
+            "side": "right"
+          },
+          {
+            "text": "O₂ released",
+            "anchor": [
+              0.45,
+              -1.05,
+              0.2
+            ],
+            "at": "@releases",
+            "tone": "amber",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "id": "co2-return",
+      "template": "concept",
+      "narration": "Most carbon dioxide doesn't ride back on hemoglobin. Inside red blood cells, an enzyme called ==carbonic anhydrase== converts it to **bicarbonate**, which travels in the plasma back to the lungs.",
+      "params": {
+        "term": "CO₂'s ride home",
+        "definition": "Carbonic anhydrase in red blood cells turns CO₂ into bicarbonate for transport.",
+        "bullets": [
+          {
+            "text": "Most: as bicarbonate (HCO₃⁻)",
+            "at": "@bicarbonate"
+          },
+          {
+            "text": "Some: bound to hemoglobin",
+            "at": "@plasma"
+          },
+          {
+            "text": "A little: dissolved in plasma",
+            "at": "@lungs"
+          }
+        ],
+        "formula": "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻"
+      }
+    },
+    {
+      "id": "nclex",
+      "template": "quiz",
+      "narration": "Quick NCLEX check. A client has severe **anemia**. Which finding should the nurse expect? [pause 2.5] The answer is B. Fewer red blood cells means less oxygen delivery, so the heart speeds up to compensate, and the client feels **fatigued**.",
+      "holdSeconds": 0.8,
+      "params": {
+        "question": "A client has severe anemia. Which finding should the nurse expect?",
+        "options": [
+          "Bradycardia",
+          "Tachycardia and fatigue",
+          "Elevated hemoglobin",
+          "Flushed, warm skin"
+        ],
+        "answer": 1,
+        "revealAt": "@answer",
+        "rationale": "↓ O₂-carrying capacity → compensatory tachycardia; fatigue and pallor are common."
+      }
+    },
+    {
+      "id": "recap",
+      "template": "recap",
+      "narration": "So: red blood cells load **oxygen** in the lungs, unload it in the tissues, and help carry **carbon dioxide** back out. Follow for more A and P, made simple.",
+      "params": {
+        "points": [
+          "Hemoglobin loads O₂ in the lungs",
+          "CO₂ and acid trigger unloading in tissues",
+          "Most CO₂ returns as bicarbonate"
+        ]
+      }
+    }
+  ]
+}

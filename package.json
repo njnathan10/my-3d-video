@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts Main out/video.mp4",
-    "render:vertical": "remotion render src/index.ts MainVertical out/video-vertical.mp4",
-    "still": "remotion still src/index.ts Main out/still.png --frame=60",
+    "new-episode": "node scripts/new-episode.mjs",
+    "sync-episodes": "node scripts/sync-episodes.mjs",
+    "voiceover": "node scripts/voiceover.mjs",
+    "validate": "node scripts/validate.mjs",
+    "qa": "node scripts/qa.mjs",
+    "render": "node scripts/render.mjs",
+    "produce": "node scripts/produce.mjs",
     "transcribe": "node scripts/transcribe.mjs",
     "typecheck": "tsc",
     "upgrade": "remotion upgrade"
@@ -13,6 +17,7 @@
   "dependencies": {
     "@react-three/drei": "^10.7.9",
     "@react-three/fiber": "^9.8.2",
+    "@remotion/bundler": "^4.0.541",
     "@remotion/captions": "^4.0.541",
     "@remotion/cli": "^4.0.541",
     "@remotion/fonts": "^4.0.541",
@@ -20,6 +25,7 @@
     "@remotion/install-whisper-cpp": "^4.0.541",
     "@remotion/media": "^4.0.541",
     "@remotion/media-utils": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
     "@remotion/three": "^4.0.541",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

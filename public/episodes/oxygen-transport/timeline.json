@@ -1,0 +1,1513 @@
+{
+  "slug": "oxygen-transport",
+  "fps": 30,
+  "mode": "estimate",
+  "totalFrames": 3845,
+  "scenes": [
+    {
+      "id": "hook",
+      "from": 0,
+      "durationInFrames": 391,
+      "audio": null,
+      "words": [
+        {
+          "text": "Right",
+          "startMs": 150,
+          "endMs": 532
+        },
+        {
+          "text": "now,",
+          "startMs": 565,
+          "endMs": 885
+        },
+        {
+          "text": "your",
+          "startMs": 1073,
+          "endMs": 1423
+        },
+        {
+          "text": "bone",
+          "startMs": 1454,
+          "endMs": 1805
+        },
+        {
+          "text": "marrow",
+          "startMs": 1835,
+          "endMs": 2248
+        },
+        {
+          "text": "is",
+          "startMs": 2284,
+          "endMs": 2573
+        },
+        {
+          "text": "making",
+          "startMs": 2598,
+          "endMs": 3010
+        },
+        {
+          "text": "more",
+          "startMs": 3046,
+          "endMs": 3397
+        },
+        {
+          "text": "than",
+          "startMs": 3428,
+          "endMs": 3778
+        },
+        {
+          "text": "2",
+          "startMs": 3809,
+          "endMs": 4067,
+          "emphasis": "amber"
+        },
+        {
+          "text": "million",
+          "startMs": 4089,
+          "endMs": 4533,
+          "emphasis": "amber"
+        },
+        {
+          "text": "new",
+          "startMs": 4572,
+          "endMs": 4891
+        },
+        {
+          "text": "red",
+          "startMs": 4919,
+          "endMs": 5239,
+          "emphasis": "teal"
+        },
+        {
+          "text": "blood",
+          "startMs": 5267,
+          "endMs": 5649,
+          "emphasis": "teal"
+        },
+        {
+          "text": "cells",
+          "startMs": 5682,
+          "endMs": 6064,
+          "emphasis": "teal"
+        },
+        {
+          "text": "every",
+          "startMs": 6097,
+          "endMs": 6478
+        },
+        {
+          "text": "second.",
+          "startMs": 6512,
+          "endMs": 6924
+        },
+        {
+          "text": "Each",
+          "startMs": 7280,
+          "endMs": 7631
+        },
+        {
+          "text": "one",
+          "startMs": 7662,
+          "endMs": 7981
+        },
+        {
+          "text": "has",
+          "startMs": 8009,
+          "endMs": 8329
+        },
+        {
+          "text": "a",
+          "startMs": 8357,
+          "endMs": 8615
+        },
+        {
+          "text": "single",
+          "startMs": 8637,
+          "endMs": 9050
+        },
+        {
+          "text": "job:",
+          "startMs": 9086,
+          "endMs": 9406
+        },
+        {
+          "text": "deliver",
+          "startMs": 9593,
+          "endMs": 10037
+        },
+        {
+          "text": "oxygen.",
+          "startMs": 10076,
+          "endMs": 10488,
+          "emphasis": "amber"
+        },
+        {
+          "text": "Here's",
+          "startMs": 10844,
+          "endMs": 11226
+        },
+        {
+          "text": "how",
+          "startMs": 11259,
+          "endMs": 11579
+        },
+        {
+          "text": "it",
+          "startMs": 11607,
+          "endMs": 11896
+        },
+        {
+          "text": "works.",
+          "startMs": 11921,
+          "endMs": 12303
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "from": 391,
+      "durationInFrames": 458,
+      "audio": null,
+      "words": [
+        {
+          "text": "Meet",
+          "startMs": 150,
+          "endMs": 484
+        },
+        {
+          "text": "the",
+          "startMs": 514,
+          "endMs": 818
+        },
+        {
+          "text": "erythrocyte.",
+          "startMs": 845,
+          "endMs": 1386,
+          "emphasis": "teal"
+        },
+        {
+          "text": "It's",
+          "startMs": 1753,
+          "endMs": 2058
+        },
+        {
+          "text": "a",
+          "startMs": 2084,
+          "endMs": 2330
+        },
+        {
+          "text": "flexible,",
+          "startMs": 2352,
+          "endMs": 2804
+        },
+        {
+          "text": "biconcave",
+          "startMs": 3004,
+          "endMs": 3485,
+          "emphasis": "amber"
+        },
+        {
+          "text": "disc:",
+          "startMs": 3527,
+          "endMs": 3862
+        },
+        {
+          "text": "thin",
+          "startMs": 4051,
+          "endMs": 4385
+        },
+        {
+          "text": "in",
+          "startMs": 4414,
+          "endMs": 4690
+        },
+        {
+          "text": "the",
+          "startMs": 4714,
+          "endMs": 5019
+        },
+        {
+          "text": "middle,",
+          "startMs": 5045,
+          "endMs": 5439
+        },
+        {
+          "text": "thicker",
+          "startMs": 5633,
+          "endMs": 6056
+        },
+        {
+          "text": "at",
+          "startMs": 6093,
+          "endMs": 6368
+        },
+        {
+          "text": "the",
+          "startMs": 6392,
+          "endMs": 6697
+        },
+        {
+          "text": "edges,",
+          "startMs": 6723,
+          "endMs": 7087
+        },
+        {
+          "text": "with",
+          "startMs": 7279,
+          "endMs": 7613
+        },
+        {
+          "text": "no",
+          "startMs": 7643,
+          "endMs": 7918
+        },
+        {
+          "text": "nucleus.",
+          "startMs": 7942,
+          "endMs": 8365
+        },
+        {
+          "text": "That",
+          "startMs": 8722,
+          "endMs": 9056
+        },
+        {
+          "text": "shape",
+          "startMs": 9085,
+          "endMs": 9449
+        },
+        {
+          "text": "adds",
+          "startMs": 9481,
+          "endMs": 9815
+        },
+        {
+          "text": "surface",
+          "startMs": 9844,
+          "endMs": 10267
+        },
+        {
+          "text": "area",
+          "startMs": 10304,
+          "endMs": 10638
+        },
+        {
+          "text": "for",
+          "startMs": 10667,
+          "endMs": 10972
+        },
+        {
+          "text": "gas",
+          "startMs": 10999,
+          "endMs": 11304
+        },
+        {
+          "text": "exchange",
+          "startMs": 11330,
+          "endMs": 11783
+        },
+        {
+          "text": "and",
+          "startMs": 11822,
+          "endMs": 12127
+        },
+        {
+          "text": "lets",
+          "startMs": 12154,
+          "endMs": 12488
+        },
+        {
+          "text": "it",
+          "startMs": 12517,
+          "endMs": 12793
+        },
+        {
+          "text": "bend",
+          "startMs": 12816,
+          "endMs": 13151
+        },
+        {
+          "text": "through",
+          "startMs": 13180,
+          "endMs": 13603
+        },
+        {
+          "text": "tiny",
+          "startMs": 13640,
+          "endMs": 13974
+        },
+        {
+          "text": "capillaries.",
+          "startMs": 14003,
+          "endMs": 14544,
+          "emphasis": "teal"
+        }
+      ]
+    },
+    {
+      "id": "hemoglobin",
+      "from": 849,
+      "durationInFrames": 444,
+      "audio": null,
+      "words": [
+        {
+          "text": "Packed",
+          "startMs": 150,
+          "endMs": 543
+        },
+        {
+          "text": "inside",
+          "startMs": 578,
+          "endMs": 971
+        },
+        {
+          "text": "are",
+          "startMs": 1005,
+          "endMs": 1310
+        },
+        {
+          "text": "about",
+          "startMs": 1337,
+          "endMs": 1701
+        },
+        {
+          "text": "300",
+          "startMs": 1732,
+          "endMs": 2037,
+          "emphasis": "amber"
+        },
+        {
+          "text": "million",
+          "startMs": 2064,
+          "endMs": 2487,
+          "emphasis": "amber"
+        },
+        {
+          "text": "molecules",
+          "startMs": 2524,
+          "endMs": 3005
+        },
+        {
+          "text": "of",
+          "startMs": 3047,
+          "endMs": 3323
+        },
+        {
+          "text": "hemoglobin.",
+          "startMs": 3347,
+          "endMs": 3858,
+          "emphasis": "teal"
+        },
+        {
+          "text": "Each",
+          "startMs": 4223,
+          "endMs": 4557
+        },
+        {
+          "text": "has",
+          "startMs": 4586,
+          "endMs": 4891
+        },
+        {
+          "text": "four",
+          "startMs": 4918,
+          "endMs": 5252,
+          "emphasis": "amber"
+        },
+        {
+          "text": "heme",
+          "startMs": 5281,
+          "endMs": 5616,
+          "emphasis": "teal"
+        },
+        {
+          "text": "groups,",
+          "startMs": 5645,
+          "endMs": 6038
+        },
+        {
+          "text": "and",
+          "startMs": 6232,
+          "endMs": 6537
+        },
+        {
+          "text": "each",
+          "startMs": 6564,
+          "endMs": 6898
+        },
+        {
+          "text": "heme",
+          "startMs": 6927,
+          "endMs": 7262
+        },
+        {
+          "text": "holds",
+          "startMs": 7291,
+          "endMs": 7655
+        },
+        {
+          "text": "an",
+          "startMs": 7686,
+          "endMs": 7962
+        },
+        {
+          "text": "iron",
+          "startMs": 7986,
+          "endMs": 8320,
+          "emphasis": "amber"
+        },
+        {
+          "text": "atom",
+          "startMs": 8349,
+          "endMs": 8684
+        },
+        {
+          "text": "that",
+          "startMs": 8713,
+          "endMs": 9047
+        },
+        {
+          "text": "binds",
+          "startMs": 9076,
+          "endMs": 9440
+        },
+        {
+          "text": "one",
+          "startMs": 9472,
+          "endMs": 9777
+        },
+        {
+          "text": "oxygen.",
+          "startMs": 9803,
+          "endMs": 10197
+        },
+        {
+          "text": "So",
+          "startMs": 10551,
+          "endMs": 10826
+        },
+        {
+          "text": "one",
+          "startMs": 10850,
+          "endMs": 11155
+        },
+        {
+          "text": "hemoglobin",
+          "startMs": 11182,
+          "endMs": 11693
+        },
+        {
+          "text": "carries",
+          "startMs": 11738,
+          "endMs": 12161
+        },
+        {
+          "text": "up",
+          "startMs": 12198,
+          "endMs": 12473
+        },
+        {
+          "text": "to",
+          "startMs": 12497,
+          "endMs": 12772
+        },
+        {
+          "text": "four",
+          "startMs": 12796,
+          "endMs": 13131
+        },
+        {
+          "text": "oxygen",
+          "startMs": 13160,
+          "endMs": 13553
+        },
+        {
+          "text": "molecules.",
+          "startMs": 13587,
+          "endMs": 14069
+        }
+      ]
+    },
+    {
+      "id": "lungs",
+      "from": 1293,
+      "durationInFrames": 456,
+      "audio": null,
+      "words": [
+        {
+          "text": "In",
+          "startMs": 150,
+          "endMs": 412
+        },
+        {
+          "text": "the",
+          "startMs": 435,
+          "endMs": 726
+        },
+        {
+          "text": "lungs,",
+          "startMs": 751,
+          "endMs": 1098,
+          "emphasis": "teal"
+        },
+        {
+          "text": "oxygen",
+          "startMs": 1288,
+          "endMs": 1663
+        },
+        {
+          "text": "diffuses",
+          "startMs": 1695,
+          "endMs": 2127
+        },
+        {
+          "text": "from",
+          "startMs": 2164,
+          "endMs": 2483
+        },
+        {
+          "text": "the",
+          "startMs": 2510,
+          "endMs": 2801
+        },
+        {
+          "text": "alveoli",
+          "startMs": 2826,
+          "endMs": 3229,
+          "emphasis": "teal"
+        },
+        {
+          "text": "into",
+          "startMs": 3264,
+          "endMs": 3583
+        },
+        {
+          "text": "surrounding",
+          "startMs": 3611,
+          "endMs": 4126
+        },
+        {
+          "text": "capillaries,",
+          "startMs": 4171,
+          "endMs": 4686,
+          "emphasis": "teal"
+        },
+        {
+          "text": "and",
+          "startMs": 4891,
+          "endMs": 5182
+        },
+        {
+          "text": "hemoglobin",
+          "startMs": 5207,
+          "endMs": 5694
+        },
+        {
+          "text": "grabs",
+          "startMs": 5737,
+          "endMs": 6083
+        },
+        {
+          "text": "it,",
+          "startMs": 6113,
+          "endMs": 6376
+        },
+        {
+          "text": "becoming",
+          "startMs": 6559,
+          "endMs": 6990
+        },
+        {
+          "text": "oxyhemoglobin.",
+          "startMs": 7027,
+          "endMs": 7599,
+          "emphasis": "amber"
+        },
+        {
+          "text": "Fun",
+          "startMs": 7969,
+          "endMs": 8259
+        },
+        {
+          "text": "fact:",
+          "startMs": 8284,
+          "endMs": 8603
+        },
+        {
+          "text": "blood",
+          "startMs": 8791,
+          "endMs": 9138
+        },
+        {
+          "text": "without",
+          "startMs": 9168,
+          "endMs": 9571
+        },
+        {
+          "text": "oxygen",
+          "startMs": 9606,
+          "endMs": 9981
+        },
+        {
+          "text": "isn't",
+          "startMs": 10013,
+          "endMs": 10332
+        },
+        {
+          "text": "blue.",
+          "startMs": 10360,
+          "endMs": 10678
+        },
+        {
+          "text": "It's",
+          "startMs": 11026,
+          "endMs": 11316
+        },
+        {
+          "text": "dark",
+          "startMs": 11342,
+          "endMs": 11660
+        },
+        {
+          "text": "red.",
+          "startMs": 11688,
+          "endMs": 11979
+        },
+        {
+          "text": "Blue",
+          "startMs": 12324,
+          "endMs": 12642
+        },
+        {
+          "text": "is",
+          "startMs": 12670,
+          "endMs": 12933
+        },
+        {
+          "text": "just",
+          "startMs": 12955,
+          "endMs": 13274
+        },
+        {
+          "text": "a",
+          "startMs": 13302,
+          "endMs": 13536
+        },
+        {
+          "text": "diagram",
+          "startMs": 13556,
+          "endMs": 13959
+        },
+        {
+          "text": "convention.",
+          "startMs": 13994,
+          "endMs": 14482
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "from": 1749,
+      "durationInFrames": 297,
+      "audio": null,
+      "words": [
+        {
+          "text": "That",
+          "startMs": 150,
+          "endMs": 492
+        },
+        {
+          "text": "oxygen-rich",
+          "startMs": 521,
+          "endMs": 1044
+        },
+        {
+          "text": "blood",
+          "startMs": 1089,
+          "endMs": 1461
+        },
+        {
+          "text": "returns",
+          "startMs": 1494,
+          "endMs": 1926
+        },
+        {
+          "text": "to",
+          "startMs": 1963,
+          "endMs": 2245
+        },
+        {
+          "text": "the",
+          "startMs": 2269,
+          "endMs": 2581
+        },
+        {
+          "text": "left",
+          "startMs": 2608,
+          "endMs": 2950
+        },
+        {
+          "text": "side",
+          "startMs": 2979,
+          "endMs": 3321
+        },
+        {
+          "text": "of",
+          "startMs": 3351,
+          "endMs": 3632
+        },
+        {
+          "text": "the",
+          "startMs": 3657,
+          "endMs": 3968
+        },
+        {
+          "text": "heart,",
+          "startMs": 3995,
+          "endMs": 4367,
+          "emphasis": "teal"
+        },
+        {
+          "text": "which",
+          "startMs": 4560,
+          "endMs": 4931
+        },
+        {
+          "text": "pumps",
+          "startMs": 4964,
+          "endMs": 5336
+        },
+        {
+          "text": "it",
+          "startMs": 5368,
+          "endMs": 5649
+        },
+        {
+          "text": "through",
+          "startMs": 5674,
+          "endMs": 6106
+        },
+        {
+          "text": "the",
+          "startMs": 6144,
+          "endMs": 6455
+        },
+        {
+          "text": "arteries",
+          "startMs": 6482,
+          "endMs": 6944,
+          "emphasis": "teal"
+        },
+        {
+          "text": "to",
+          "startMs": 6985,
+          "endMs": 7266
+        },
+        {
+          "text": "tissues",
+          "startMs": 7291,
+          "endMs": 7723
+        },
+        {
+          "text": "all",
+          "startMs": 7760,
+          "endMs": 8072
+        },
+        {
+          "text": "over",
+          "startMs": 8099,
+          "endMs": 8441
+        },
+        {
+          "text": "your",
+          "startMs": 8470,
+          "endMs": 8812
+        },
+        {
+          "text": "body.",
+          "startMs": 8842,
+          "endMs": 9184
+        }
+      ]
+    },
+    {
+      "id": "unloading",
+      "from": 2046,
+      "durationInFrames": 402,
+      "audio": null,
+      "words": [
+        {
+          "text": "In",
+          "startMs": 150,
+          "endMs": 427
+        },
+        {
+          "text": "active",
+          "startMs": 451,
+          "endMs": 847
+        },
+        {
+          "text": "tissues,",
+          "startMs": 881,
+          "endMs": 1307
+        },
+        {
+          "text": "oxygen",
+          "startMs": 1504,
+          "endMs": 1899
+        },
+        {
+          "text": "is",
+          "startMs": 1934,
+          "endMs": 2211
+        },
+        {
+          "text": "low",
+          "startMs": 2235,
+          "endMs": 2541
+        },
+        {
+          "text": "while",
+          "startMs": 2568,
+          "endMs": 2934
+        },
+        {
+          "text": "carbon",
+          "startMs": 2966,
+          "endMs": 3362,
+          "emphasis": "amber"
+        },
+        {
+          "text": "dioxide",
+          "startMs": 3396,
+          "endMs": 3821,
+          "emphasis": "amber"
+        },
+        {
+          "text": "and",
+          "startMs": 3858,
+          "endMs": 4165
+        },
+        {
+          "text": "acid",
+          "startMs": 4192,
+          "endMs": 4528
+        },
+        {
+          "text": "are",
+          "startMs": 4557,
+          "endMs": 4864
+        },
+        {
+          "text": "high.",
+          "startMs": 4891,
+          "endMs": 5227
+        },
+        {
+          "text": "That",
+          "startMs": 5576,
+          "endMs": 5913
+        },
+        {
+          "text": "loosens",
+          "startMs": 5942,
+          "endMs": 6367
+        },
+        {
+          "text": "hemoglobin's",
+          "startMs": 6404,
+          "endMs": 6948
+        },
+        {
+          "text": "grip,",
+          "startMs": 6996,
+          "endMs": 7332
+        },
+        {
+          "text": "so",
+          "startMs": 7521,
+          "endMs": 7798
+        },
+        {
+          "text": "it",
+          "startMs": 7822,
+          "endMs": 8099
+        },
+        {
+          "text": "releases",
+          "startMs": 8123,
+          "endMs": 8578
+        },
+        {
+          "text": "oxygen",
+          "startMs": 8618,
+          "endMs": 9014
+        },
+        {
+          "text": "right",
+          "startMs": 9048,
+          "endMs": 9414
+        },
+        {
+          "text": "where",
+          "startMs": 9446,
+          "endMs": 9812
+        },
+        {
+          "text": "it's",
+          "startMs": 9844,
+          "endMs": 10150
+        },
+        {
+          "text": "needed.",
+          "startMs": 10177,
+          "endMs": 10573
+        },
+        {
+          "text": "This",
+          "startMs": 10927,
+          "endMs": 11264
+        },
+        {
+          "text": "is",
+          "startMs": 11293,
+          "endMs": 11570
+        },
+        {
+          "text": "the",
+          "startMs": 11594,
+          "endMs": 11901
+        },
+        {
+          "text": "Bohr",
+          "startMs": 11927,
+          "endMs": 12264,
+          "emphasis": "amber"
+        },
+        {
+          "text": "effect.",
+          "startMs": 12293,
+          "endMs": 12688,
+          "emphasis": "amber"
+        }
+      ]
+    },
+    {
+      "id": "co2-return",
+      "from": 2448,
+      "durationInFrames": 393,
+      "audio": null,
+      "words": [
+        {
+          "text": "Most",
+          "startMs": 150,
+          "endMs": 475
+        },
+        {
+          "text": "carbon",
+          "startMs": 503,
+          "endMs": 885
+        },
+        {
+          "text": "dioxide",
+          "startMs": 918,
+          "endMs": 1329
+        },
+        {
+          "text": "doesn't",
+          "startMs": 1364,
+          "endMs": 1746
+        },
+        {
+          "text": "ride",
+          "startMs": 1779,
+          "endMs": 2104
+        },
+        {
+          "text": "back",
+          "startMs": 2132,
+          "endMs": 2457
+        },
+        {
+          "text": "on",
+          "startMs": 2485,
+          "endMs": 2752
+        },
+        {
+          "text": "hemoglobin.",
+          "startMs": 2776,
+          "endMs": 3272
+        },
+        {
+          "text": "Inside",
+          "startMs": 3635,
+          "endMs": 4017
+        },
+        {
+          "text": "red",
+          "startMs": 4050,
+          "endMs": 4346
+        },
+        {
+          "text": "blood",
+          "startMs": 4372,
+          "endMs": 4725
+        },
+        {
+          "text": "cells,",
+          "startMs": 4756,
+          "endMs": 5109
+        },
+        {
+          "text": "an",
+          "startMs": 5300,
+          "endMs": 5567
+        },
+        {
+          "text": "enzyme",
+          "startMs": 5591,
+          "endMs": 5973
+        },
+        {
+          "text": "called",
+          "startMs": 6006,
+          "endMs": 6388
+        },
+        {
+          "text": "carbonic",
+          "startMs": 6421,
+          "endMs": 6860,
+          "emphasis": "teal"
+        },
+        {
+          "text": "anhydrase",
+          "startMs": 6898,
+          "endMs": 7366,
+          "emphasis": "teal"
+        },
+        {
+          "text": "converts",
+          "startMs": 7407,
+          "endMs": 7846
+        },
+        {
+          "text": "it",
+          "startMs": 7884,
+          "endMs": 8152
+        },
+        {
+          "text": "to",
+          "startMs": 8175,
+          "endMs": 8442
+        },
+        {
+          "text": "bicarbonate,",
+          "startMs": 8465,
+          "endMs": 8990,
+          "emphasis": "amber"
+        },
+        {
+          "text": "which",
+          "startMs": 9196,
+          "endMs": 9549
+        },
+        {
+          "text": "travels",
+          "startMs": 9580,
+          "endMs": 9991
+        },
+        {
+          "text": "in",
+          "startMs": 10026,
+          "endMs": 10294
+        },
+        {
+          "text": "the",
+          "startMs": 10317,
+          "endMs": 10613
+        },
+        {
+          "text": "plasma",
+          "startMs": 10639,
+          "endMs": 11021
+        },
+        {
+          "text": "back",
+          "startMs": 11054,
+          "endMs": 11378
+        },
+        {
+          "text": "to",
+          "startMs": 11407,
+          "endMs": 11674
+        },
+        {
+          "text": "the",
+          "startMs": 11697,
+          "endMs": 11993
+        },
+        {
+          "text": "lungs.",
+          "startMs": 12019,
+          "endMs": 12372
+        }
+      ]
+    },
+    {
+      "id": "nclex",
+      "from": 2841,
+      "durationInFrames": 613,
+      "audio": null,
+      "words": [
+        {
+          "text": "Quick",
+          "startMs": 150,
+          "endMs": 516
+        },
+        {
+          "text": "NCLEX",
+          "startMs": 548,
+          "endMs": 914
+        },
+        {
+          "text": "check.",
+          "startMs": 946,
+          "endMs": 1313
+        },
+        {
+          "text": "A",
+          "startMs": 1664,
+          "endMs": 1912
+        },
+        {
+          "text": "client",
+          "startMs": 1933,
+          "endMs": 2329
+        },
+        {
+          "text": "has",
+          "startMs": 2364,
+          "endMs": 2671
+        },
+        {
+          "text": "severe",
+          "startMs": 2697,
+          "endMs": 3093
+        },
+        {
+          "text": "anemia.",
+          "startMs": 3128,
+          "endMs": 3524,
+          "emphasis": "amber"
+        },
+        {
+          "text": "Which",
+          "startMs": 3878,
+          "endMs": 4245
+        },
+        {
+          "text": "finding",
+          "startMs": 4276,
+          "endMs": 4702
+        },
+        {
+          "text": "should",
+          "startMs": 4739,
+          "endMs": 5135
+        },
+        {
+          "text": "the",
+          "startMs": 5170,
+          "endMs": 5476
+        },
+        {
+          "text": "nurse",
+          "startMs": 5503,
+          "endMs": 5869
+        },
+        {
+          "text": "expect?",
+          "startMs": 5901,
+          "endMs": 6297
+        },
+        {
+          "text": "The",
+          "startMs": 9152,
+          "endMs": 9459
+        },
+        {
+          "text": "answer",
+          "startMs": 9485,
+          "endMs": 9881
+        },
+        {
+          "text": "is",
+          "startMs": 9916,
+          "endMs": 10193
+        },
+        {
+          "text": "B.",
+          "startMs": 10217,
+          "endMs": 10464
+        },
+        {
+          "text": "Fewer",
+          "startMs": 10806,
+          "endMs": 11172
+        },
+        {
+          "text": "red",
+          "startMs": 11204,
+          "endMs": 11511
+        },
+        {
+          "text": "blood",
+          "startMs": 11538,
+          "endMs": 11904
+        },
+        {
+          "text": "cells",
+          "startMs": 11936,
+          "endMs": 12302
+        },
+        {
+          "text": "means",
+          "startMs": 12334,
+          "endMs": 12700
+        },
+        {
+          "text": "less",
+          "startMs": 12732,
+          "endMs": 13069
+        },
+        {
+          "text": "oxygen",
+          "startMs": 13098,
+          "endMs": 13494
+        },
+        {
+          "text": "delivery,",
+          "startMs": 13528,
+          "endMs": 13984
+        },
+        {
+          "text": "so",
+          "startMs": 14183,
+          "endMs": 14461
+        },
+        {
+          "text": "the",
+          "startMs": 14485,
+          "endMs": 14792
+        },
+        {
+          "text": "heart",
+          "startMs": 14818,
+          "endMs": 15185
+        },
+        {
+          "text": "speeds",
+          "startMs": 15216,
+          "endMs": 15612
+        },
+        {
+          "text": "up",
+          "startMs": 15647,
+          "endMs": 15924
+        },
+        {
+          "text": "to",
+          "startMs": 15948,
+          "endMs": 16225
+        },
+        {
+          "text": "compensate,",
+          "startMs": 16249,
+          "endMs": 16764
+        },
+        {
+          "text": "and",
+          "startMs": 16969,
+          "endMs": 17276
+        },
+        {
+          "text": "the",
+          "startMs": 17303,
+          "endMs": 17609
+        },
+        {
+          "text": "client",
+          "startMs": 17636,
+          "endMs": 18032
+        },
+        {
+          "text": "feels",
+          "startMs": 18067,
+          "endMs": 18433
+        },
+        {
+          "text": "fatigued.",
+          "startMs": 18465,
+          "endMs": 18920,
+          "emphasis": "amber"
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "from": 3454,
+      "durationInFrames": 391,
+      "audio": null,
+      "words": [
+        {
+          "text": "So:",
+          "startMs": 150,
+          "endMs": 444
+        },
+        {
+          "text": "red",
+          "startMs": 630,
+          "endMs": 955
+        },
+        {
+          "text": "blood",
+          "startMs": 984,
+          "endMs": 1373
+        },
+        {
+          "text": "cells",
+          "startMs": 1406,
+          "endMs": 1795
+        },
+        {
+          "text": "load",
+          "startMs": 1829,
+          "endMs": 2186
+        },
+        {
+          "text": "oxygen",
+          "startMs": 2217,
+          "endMs": 2637,
+          "emphasis": "amber"
+        },
+        {
+          "text": "in",
+          "startMs": 2674,
+          "endMs": 2968
+        },
+        {
+          "text": "the",
+          "startMs": 2994,
+          "endMs": 3319
+        },
+        {
+          "text": "lungs,",
+          "startMs": 3348,
+          "endMs": 3736
+        },
+        {
+          "text": "unload",
+          "startMs": 3930,
+          "endMs": 4350
+        },
+        {
+          "text": "it",
+          "startMs": 4387,
+          "endMs": 4681
+        },
+        {
+          "text": "in",
+          "startMs": 4707,
+          "endMs": 5001
+        },
+        {
+          "text": "the",
+          "startMs": 5027,
+          "endMs": 5352
+        },
+        {
+          "text": "tissues,",
+          "startMs": 5381,
+          "endMs": 5832
+        },
+        {
+          "text": "and",
+          "startMs": 6032,
+          "endMs": 6357
+        },
+        {
+          "text": "help",
+          "startMs": 6386,
+          "endMs": 6743
+        },
+        {
+          "text": "carry",
+          "startMs": 6774,
+          "endMs": 7163
+        },
+        {
+          "text": "carbon",
+          "startMs": 7196,
+          "endMs": 7617,
+          "emphasis": "amber"
+        },
+        {
+          "text": "dioxide",
+          "startMs": 7653,
+          "endMs": 8105,
+          "emphasis": "amber"
+        },
+        {
+          "text": "back",
+          "startMs": 8144,
+          "endMs": 8502
+        },
+        {
+          "text": "out.",
+          "startMs": 8533,
+          "endMs": 8858
+        },
+        {
+          "text": "Follow",
+          "startMs": 9207,
+          "endMs": 9627
+        },
+        {
+          "text": "for",
+          "startMs": 9663,
+          "endMs": 9989
+        },
+        {
+          "text": "more",
+          "startMs": 10017,
+          "endMs": 10375
+        },
+        {
+          "text": "A",
+          "startMs": 10406,
+          "endMs": 10668
+        },
+        {
+          "text": "and",
+          "startMs": 10691,
+          "endMs": 11017
+        },
+        {
+          "text": "P,",
+          "startMs": 11045,
+          "endMs": 11308
+        },
+        {
+          "text": "made",
+          "startMs": 11491,
+          "endMs": 11848
+        },
+        {
+          "text": "simple.",
+          "startMs": 11879,
+          "endMs": 12299
+        }
+      ]
+    }
+  ]
+}

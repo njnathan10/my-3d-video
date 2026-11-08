@@ -11,7 +11,8 @@ import {
   toCaptions,
 } from "@remotion/install-whisper-cpp";
 
-const input = process.argv[2] ?? "public/audio.wav";
+const input = process.argv[2];
+if (!input) throw new Error("Usage: npm run transcribe -- <audio file> [model]");
 const model = process.argv[3] ?? "medium.en";
 const whisperDir = path.join(process.cwd(), "whisper.cpp");
 const out = path.join("public", path.basename(input).replace(/\.[^.]+$/, "") + ".captions.json");

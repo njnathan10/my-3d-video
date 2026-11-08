@@ -1,29 +1,36 @@
 import { Composition } from "remotion";
-import { Main, mainSchemaDefaults, type MainProps } from "./Main";
+import { formats, FPS } from "./brand/tokens";
+import { episodes } from "./episodes";
+import { calculateEpisodeMetadata, EpisodeVideo } from "./timeline/Episode";
 
-export const RemotionRoot: React.FC = () => {
-  return (
-    <>
-      {/* Landscape 16:9 */}
+// Every registered episode gets two compositions:
+//   <slug>        1080×1920 vertical (TikTok / Reels / Shorts) ← primary
+//   <slug>-wide   1920×1080 (long-form YouTube)
+export const RemotionRoot: React.FC = () => (
+  <>
+    {Object.keys(episodes).map((slug) => (
       <Composition
-        id="Main"
-        component={Main}
-        durationInFrames={30 * 8}
-        fps={30}
-        width={1920}
-        height={1080}
-        defaultProps={mainSchemaDefaults satisfies MainProps}
+        key={slug}
+        id={slug}
+        component={EpisodeVideo}
+        fps={FPS}
+        durationInFrames={FPS * 120}
+        {...formats.vertical}
+        defaultProps={{ slug, format: "vertical", timeline: null }}
+        calculateMetadata={calculateEpisodeMetadata}
       />
-      {/* Vertical 9:16 for Shorts / Reels / TikTok */}
+    ))}
+    {Object.keys(episodes).map((slug) => (
       <Composition
-        id="MainVertical"
-        component={Main}
-        durationInFrames={30 * 8}
-        fps={30}
-        width={1080}
-        height={1920}
-        defaultProps={mainSchemaDefaults}
+        key={`${slug}-wide`}
+        id={`${slug}-wide`}
+        component={EpisodeVideo}
+        fps={FPS}
+        durationInFrames={FPS * 120}
+        {...formats.wide}
+        defaultProps={{ slug, format: "wide", timeline: null }}
+        calculateMetadata={calculateEpisodeMetadata}
       />
-    </>
-  );
-};
+    ))}
+  </>
+);

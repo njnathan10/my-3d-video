@@ -1,62 +1,55 @@
-# my-3d-video
+# my-3d-video: 3D medical education studio
 
-3D animated videos with **three.js** (via React Three Fiber) + **Remotion** for captions, audio and rendering to MP4.
+Faceless, 3D-animated, ~2-minute medical education videos for TikTok, Instagram Reels and
+YouTube Shorts (1080×1920), with optional 16:9 for YouTube. Built on **three.js**
+(React Three Fiber) and **Remotion**.
 
-## What's installed
+Each episode is **one JSON file**. A shared design system (brand tokens, lighting, materials,
+camera language, scene templates, captions) renders it, so every video looks like the same
+brand and new episodes need no manual design or animation.
 
-| Package | Purpose |
-|---|---|
-| `three`, `@react-three/fiber`, `@react-three/drei` | 3D scenes, meshes, lights, helpers |
-| `remotion`, `@remotion/cli` | Timeline, Studio preview, MP4 rendering |
-| `@remotion/three` | `<ThreeCanvas>`: syncs three.js to Remotion's frame clock |
-| `@remotion/media` | `<Audio>` / `<Video>` components |
-| `@remotion/media-utils` | Audio data/waveforms (for audio-reactive visuals) |
-| `@remotion/captions` | Caption types, SRT/VTT parsing, TikTok-style word highlighting |
-| `@remotion/install-whisper-cpp` | Local, free speech-to-text to auto-generate captions |
-| `@remotion/fonts`, `@remotion/google-fonts` | Fonts |
-
-## Commands
+## Quick start
 
 ```bash
-npm run dev               # open Remotion Studio (live preview + scrubbing) at http://localhost:3000
-npm run render            # render 16:9 → out/video.mp4
-npm run render:vertical   # render 9:16 → out/video-vertical.mp4
-npm run still             # render a single frame → out/still.png
-npm run transcribe -- public/voiceover.wav   # auto-captions → public/voiceover.captions.json
-npm run typecheck
+npm install
+npm run dev                                         # Studio: preview the reference episode
+npm run produce -- oxygen-transport --draft         # full silent draft (estimated timing)
 ```
 
-## Project layout
+Making a new episode with Claude: give it a topic and it follows the **medical-video** skill
+(`.claude/skills/medical-video/SKILL.md`): research → claims → script → scenes → draft →
+your medical review → AI voiceover → QA → render.
 
-```
-src/
-  index.ts      entry point (registerRoot)
-  Root.tsx      compositions: size, fps, duration (Main 1920x1080, MainVertical 1080x1920)
-  Main.tsx      combines the 3D scene + captions + audio
-  Scene3D.tsx   the three.js scene: edit this to build your animation
-  Captions.tsx  TikTok-style word-by-word captions
-public/         assets (audio, captions JSON, fonts, models, textures); load with staticFile()
-scripts/transcribe.mjs   whisper.cpp captioning
-remotion.config.ts       render settings
-```
+## One-time setup
 
-## Workflow
+1. `cp .env.example .env` and add your `ELEVENLABS_API_KEY`.
+2. Choose your narrator once: set `voiceId` (and `voiceName`) in `src/brand/voice.json`.
+3. Set your channel identity in `src/brand/identity.ts` (series name, @handle, CTA).
 
-1. **Audio**: drop your voiceover/music in `public/` (e.g. `public/voiceover.mp3`).
-2. **Captions**: `npm run transcribe -- public/voiceover.mp3` (first run downloads whisper.cpp + model, ~1.5 GB for `medium.en`; pass `small.en` or `tiny.en` as a 2nd arg for faster/smaller). Or write `public/*.json` by hand, or parse an SRT with `parseSrt()`.
-3. **Wire it up**: in `src/Main.tsx` set `audioSrc: staticFile("voiceover.mp3")` and `captionsFile: "voiceover.captions.json"`. Set `durationInFrames` in `Root.tsx` to match your audio (seconds × 30).
-4. **Animate** in `src/Scene3D.tsx`, then `npm run dev` to preview and `npm run render` to export.
+## Pipeline
 
-## The one rule for three.js in Remotion
+| Step | Command |
+|---|---|
+| Scaffold an episode | `npm run new-episode -- <slug> "<Title>" <Category>` |
+| Check structure, pacing, cues, claims | `npm run validate -- <slug>` |
+| Narration + word timings (TTS, cached per scene) | `npm run voiceover -- <slug>` (`--estimate` = free draft timings) |
+| Visual QA contact sheet | `npm run qa -- <slug>` → `out/<slug>/qa/contact-sheet.png` |
+| Render MP4 + SRT | `npm run render -- <slug>` (`--wide`, `--draft`, `--preview`) |
+| Everything | `npm run produce -- <slug>` |
 
-Drive **all** motion from `useCurrentFrame()` (with `interpolate()` / `spring()`), **never** from three's `useFrame()`, `clock`, `Date.now()` or `Math.random()` (use `random("seed")` from remotion). Remotion renders frames in parallel and out of order, so animation must be a pure function of the frame number.
+Final renders are blocked until the episode's medical review is approved
+(`"review": { "status": "approved", "reviewer": "...", "date": "..." }`). Drafts carry a
+DRAFT watermark.
 
-Loading GLTF models: put `model.glb` in `public/` and use `useGLTF(staticFile("model.glb"))` from drei.
+## Design system
+
+- `src/brand/`: colors (navy `#102638`, teal `#0B8C83`, amber `#F0BA55`, off-white `#F5F7FA`), type scale, safe zones, motion, lighting rig, material presets, narrator voice
+- `src/three/`: stage, deterministic camera, blood-flow particles, vessels, arrows, GLB anatomy loader, procedural RBC / bacteria / virus / cell / alveoli
+- `src/overlay/`: word-synced captions, 3D-pinned callouts, titles, cards
+- `src/templates/`: hook, anatomy, flow, micro, crossSection, concept, compare, quiz, recap (+ custom)
 
 ## Rendering notes
 
-- First render auto-downloads Chrome Headless Shell (one time).
-- WebGL backend is set in `remotion.config.ts`. Default `angle` works on desktops. On a server or VM without a GPU, use software GL:
-  `REMOTION_GL=swangle npm run render`
-- To use an existing Chrome/Chromium instead of downloading: `REMOTION_BROWSER=/path/to/chrome npm run render`
-- Remotion licensing: free for individuals and companies ≤3 people; larger companies need a company license (remotion.pro).
+- No GPU (servers, cloud): `REMOTION_GL=swangle npm run render -- <slug>` (much slower).
+- Anatomy GLB models: see `.claude/skills/medical-video/references/models.md` (sources, licenses, prep).
+- Remotion license: free for individuals and companies ≤ 3 people; larger companies need a company license.
